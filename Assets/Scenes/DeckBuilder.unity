@@ -19147,6 +19147,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Recyclable Scroll View
       objectReference: {fileID: 0}
+    - target: {fileID: 114310977074674660, guid: 3c01abf790e1a42ca8d10525f571cab5, type: 3}
+      propertyPath: m_MovementType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114310977074674660, guid: 3c01abf790e1a42ca8d10525f571cab5, type: 3}
+      propertyPath: m_ScrollSensitivity
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 224141822819573504, guid: 3c01abf790e1a42ca8d10525f571cab5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -28424,7 +28432,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 403522049}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.19
+  m_Size: 0.38
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
