@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: GSTU_Config
   m_EditorClassIdentifier: Assembly-CSharp:GoogleSheetsToUnity:GoogleSheetsToUnityConfig
   CLIENT_ID: 949622279571-tkf2psdpkhjsf2io4ab1ge3q6lgsbn70.apps.googleusercontent.com
-  CLIENT_SECRET: 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
+  CLIENT_SECRET: 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
   ACCESS_TOKEN: 
   REFRESH_TOKEN: 1/kqepo9i9qIVDShLRC2c0kJgb-3DYKJevwVTF6LAfGGM
   API_Key: 
   PORT: 8080
   gdr:
-    access_token: ya29.a0ARGnu0b3fxw4TsDLMLS9KskvRNNiRvkCMGhxzlaLudxaSwENUDKtGdqdWSM3K-SmBHLJCRdIX_6UI8fEesyumbkgVVmp-KaEDigsV45VkLyCfNKwHvEXoVpQ5U2puf3tN1mXuN40VUltg1hBrw-Uw8q9ElloUYjyq_QuZdEA226-TKGmo0tzmcn8MlenEG3737TjqWcaCgYKATUSARASFQHGX2Mi9Yy41s0SwmvwJHCrLuMmGA0206
-    refresh_token: 1//0e-jsSXKtx-MICgYIARAAGA4SNwF-L9Irm8lAVHDMBNTuX4W4d4UqzAu8z9QePTmHPL59v0w_xEElfXkOKInt4UlwJtf8zN2yfEs
+    access_token: ya29.a0AdMD6EhwnNnVSJBvs94sFPHv-35rft6U2uthEi4KzQZnppIYvvJNRa9jQWkwTwd3SOOs0wtrat5tw72ttX6rCmZIdPWBU3SS-udTrW5lu3RoGD9npnJ1WWpdJq7ntAd0agYpWnesHQyYdjjYyCQO2HKlsjOqoJN3ZG4iPCcoSxj5V20Xg8ENsIkXlK0tLHeguNwf-HeeaCgYKAasSARASFQHGX2MiImickclZ32sCqlxdogaOQA0207
+    refresh_token: 1//0eON7kLBBPAi0CgYIARAAGA4SNwF-L9IrQt0Ol0V4nUzRxd_-JaVdFcrvFU120B_dPKIqw_Ri8JlrUQ0Y_hlcDW-kKPsQWmNB13c
     token_type: Bearer
     expires_in: 3599
