@@ -1,3 +1,4 @@
+using GoogleSheetsToUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine;
 namespace EnumData
 {
     public enum CountryType
-    { 
+    {
         None,
         LyricalMonasterio, // 리리컬모나스테리오
         KeterSanctuary,    // 케테르 생츄어리
@@ -21,16 +22,25 @@ namespace EnumData
         Ghost,             // 고스트
         Angel,             // 엔젤
         Demon,             // 데몬
-        HighBeast,         // 하이비스트
         Warbeast,          // 워비스트
         Giant,             // 자이언트
-        Vampire            // 뱀파이어
+        Vampire,            // 뱀파이어
+        Elf,
+        Phantom,
+        Dragoroid,
+        Bioroid,
+        Cyberloid,
+        Battroid,
+        Succubus,
+        ForestDragon,
+
     }
     public enum TriggerType
     {
         None,
         Critical,
         Draw,
+        Front,
         Heal,
         Over
     }
@@ -41,4 +51,5 @@ namespace EnumData
         BlitzOrder,
         Trigger
     }
+    
 }

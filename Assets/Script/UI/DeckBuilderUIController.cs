@@ -10,8 +10,8 @@ public class DeckBuilderUIController : MonoBehaviour
     [SerializeField] private Text MessageText;
 
     [Header("UI References - Button")]
-    [SerializeField] private Button saveButton;
-    [SerializeField] private Button openCardList;
+    [SerializeField] public Button saveButton;
+    [SerializeField] public Button openCardList;
 
     [Header("UI References - Canvas")]
     [SerializeField] private GameObject cardPanel;
