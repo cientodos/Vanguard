@@ -22,10 +22,8 @@ MonoBehaviour:
     power: 6000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC9C0\uAE08 \uAC00\uC7A5 \uC778\uAE30 \uB9CE\uC740 6\uC778\uC870,
@@ -43,81 +41,73 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uB370\uBDD4 \uC2F1\uAE00\uC740 \uD6CC\uB96D\uD558\uAC8C \uB300\uD788\uD2B8\uB97C
       \uAE30\uB85D\uD588\uB2E4.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050000
+    - card_60150000
+    - card_60250000
   - id: 60050001
     cardName: "\uC624\uB9AC\uC9C0\uB110\uC2A4\uD0C0\uC77C \uC5D0\uB974\uC288\uCE74"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uB808\uC774\uB514 \uBA54\uC774\uB4DC \uD558\uAE30\uC5D0\uB294,
       \uC5B4\uB518\uAC00 \uBD80\uC871\uD574.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050001
   - id: 60050002
     cardName: "\uBA39\uBCF4 \uB178\uB77C"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uD558\uD788? \uD638\uD5E4\uD558\uD558\uD5E4\uD558\uD788\uD638?\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050002
   - id: 60050003
     cardName: "\uD30C\uC548\uC758 \uC6A9\uB9B0 \uC774\uB8E8\uC81C"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uD574\uBCF4\uACE0 \uC2F6\uC740 \uC77C, \uC624\uB298\uB3C4
       \uD558\uB098 \uBC1C\uACAC\uD588\uC5B4.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050003
   - id: 60050004
     cardName: "\uD504\uB808\uC154\uC2A4\uD2A0 \uC5D0\uB4DC\uC704\uC96C"
     grade: 0
     power: 4000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uB4E4\uB72C \uB178\uB7AB\uC18C\uB9AC\uB294 \uD30C\uBB38\uC774
@@ -127,181 +117,164 @@ MonoBehaviour:
       \u3010\uCF54\uC2A4\uD2B8\u3011[\uC774 \uC720\uB2DB\uC744 \uC18C\uC6B8\uC5D0
       \uB193\uC74C] \uC73C\uB85C, \uC790\uC2E0\uC758 \uC720\uB2DB\uC744 1\uC7A5 \uC120\uD0DD\uD558\uC5EC,
       \uADF8 \uD134 \uC911, \uD30C\uC6CC+2000."
-    availableRarities: 
+    availableRarities: 00000000010000000200000009000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050004
+    - card_60150004
+    - card_60250004
+    - card_60950004
   - id: 60050005
     cardName: "\uCC3D\uACF5\uC744 \uCDA4\uCD94\uB294 \uB0A0\uAC1C\uC640 \uC548\uD2F0\uC544"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uC544\uC9C1 \uB354 \uC788\uC73C\uB2C8\uAE4C \uC794\uB729
       \uBA39\uC5B4~\u266A\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050005
   - id: 60050006
     cardName: "\uC0AC\uB9AC\uC54C\uBCF4\uC774\uC2A4 \uD790\uBCA0\uB974\uD0C0"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uB0AD\uB791\uD558\uAC8C \uC6B8\uB824\uD37C\uC9C0\uB294 \uC2E0\uBE44\uD55C
       \uC18C\uB9AC\uC5D0, \uC694\uC815\uC740 \uD658\uD76C\uD558\uBA70 \uCDA4\uCD94\uAE30
       \uC2DC\uC791\uD55C\uB2E4.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050006
   - id: 60050007
     cardName: "\uD50C\uB7EC\uD53C\u30FB\uB808\uC774\uB514 \uD638\uB378\uB9AC\uD398"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uD479\uC2E0\uD788 \uC0C1\uB0E5\uD55C \uD30C\uB3C4\uC758 \uACE0\uB3D9\uC5D0,
       \uB2F9\uC2E0\uC758 \u2661\uB294 \uD568\uB77D \uC9C1\uC804.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050007
   - id: 60050008
     cardName: "\uC1FC\uD0B9\uCE94\uB514 \uC544\uC6B0\uB9AC\uC2A4"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uC785\uC5D0 \uB123\uC73C\uBA74 \uD31F \uD558\uB294 \uAC70\uC608\uC694.
       \uC7AC\uBBF8\uC788\uC8E0?\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050008
   - id: 60050009
     cardName: "\uCE58\uC5B4\uD480 \uC120\uC0E4\uC778 \uC6D4\uB9AC\uC2A4"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 1
     cardType: 3
     flavorText: "\u300E\uB0A0\uC528\uAC00 \uC88B\uC544~ \uC624\uB298 \uB808\uC2A8\uC740
       \uD798\uB0B4\uBCF4\uC2E4\uAE4C!\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60050009
   - id: 60060000
     cardName: "\uC9C0\uC2DD\uC744 \uD798\uC73C\uB85C \uC790\uC2A4\uD0A4\uC544"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uD559\uC0DD\uB4E4\uC740 \uB370\uBDD4\uB97C \uBAA9\uD45C\uB85C,
       \uB9E4\uC77C \uC790\uC2E0\uC744 \uAE38\uACE0 \uB2E6\uB294\uB2E4.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060000
   - id: 60060001
     cardName: "\uC5B4\uD50C\uB7FC\uC0AC\uC774\uD2B8 \uADF8\uB808\uD14C"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uC911\uC694\uD55C \uAC83\uC740 \uC694\uAD6C\uB418\uB294 \uAC83\uC744
       \uC774\uD574\uD558\uB294 \uAC83\uC774\uB2E4.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060001
   - id: 60060002
     cardName: "\uADFC\uBA74\uD55C \uC885\uC790 \uC2DC\uAD6C\uC5D8"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uADF8\uB807\uAD70\uC694~! \uC774\uAC74 \uB098\uC911\uC5D0
       \uBD84\uBA85 \uB3C4\uC6C0\uC774 \uB420 \uAC70\uC608\uC694!\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060002
   - id: 60060003
     cardName: "\uBCF5\uC2AC\uD55C \uC2DC\uC5D0\uC2A4\uD0C0 \uD788\uB974\uB9C8"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uAFC8\uAFB8\uB294 \uB4EF\uD55C \uD2F0 \uD0C0\uC784.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060003
   - id: 60060004
     cardName: "\uB9D1\uAC8C \uAC20 \uC124\uC57C \uBCA0\uB808\uD1A0\uC544"
     grade: 0
     power: 4000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uC774\uB807\uAC8C \uC88B\uC740 \uBC24\uC778\uAC78\uC694.
@@ -309,179 +282,162 @@ MonoBehaviour:
     effectText: "\u3010\uC601\uC18D\u3011\u3010\uAC00\uB514\uC5B8 \uC11C\uD074\u3011
       : \uC0C1\uB300\uC758 \uBC45\uAC00\uB4DC\uAC00 \uADF8\uB808\uC774\uB4DC 3 \uC774\uC0C1\uC774\uB77C\uBA74,
       \uC774 \uC720\uB2DB\uC758 \uC2E4\uB4DC+5000."
-    availableRarities: 
+    availableRarities: 00000000010000000200000009000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060004
+    - card_60160004
+    - card_60260004
+    - card_60960004
   - id: 60060005
     cardName: "\uC624\uB9CC\uBD88\uC190 \uC544\uAC00\uC528 \uC544\uB85C\uC5D8"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uC774\uC81C, \uADC0\uBD80\uC778\uB4E4! \uBC1C\uBAA9 \uC7A1\uC9C0
       \uB9D0\uC544\uC8FC\uC138\uC694!\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060005
   - id: 60060006
     cardName: "\uB465\uC2E4\uB465\uC2E4 \uAC8C\uC774\uBC0D \uC9C0\uC824"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uC2E0\uC791 \uAC8C\uC784\uC774 \uBC1C\uB9E4\uB418\uBA74 \uBA70\uCE60\uAC04\uC740
       \uC218\uC5C5\uC5D0 \uCC38\uAC00\uD558\uC9C0 \uC54A\uC544\uC694.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060006
   - id: 60060007
     cardName: "\uC564\uC11C\uB7EC\u30FB\uC559\uCF54\uB974 \uB2E4\uCCB4"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uB108\uD76C\uB4E4! \uC575\uCF5C\uC774\uC57C! \uC6B8\uBA70
       \uAE30\uBED0\uD558\uB77C\uAD6C!\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060007
   - id: 60060008
     cardName: "\uB354\u30FB\uC704\uB108 \uC5D0\uB9AC\uB098"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uADF8 \uC190\uC5D0 \uC954 \uAC83\uC740, \uB204\uAD6C\uB098
       \uBD80\uB7EC\uC6CC\uD558\uB294 \uC804\uC124\uC758 \uACFC\uC790.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060008
   - id: 60060009
     cardName: "\uBE0C\uB9AC\uC9D5 \uC2A4\uCF54\uC5B4 \uB9AC\uC548\uB290"
     grade: 0
     power: 5000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 2
     cardType: 3
     flavorText: "\u300E\uC0C8\uB85C\uC6B4 \uC545\uBCF4\uB97C \uB118\uAE38 \uB54C\uB9C8\uB2E4,
       \uAC00\uC2B4 \uC124\uB808\uB294 \uBC1C\uACAC\uC774 \uC788\uB2E4.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60060009
   - id: 60070000
     cardName: "\uC0C1\uC2B5 \uB18D\uB561\uC774\uB9C8 \uD398\uB77C\uAC8C\uC57C"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uACB0\uACFC\uB97C \uB0B4\uAE30\uB9CC \uD558\uBA74, \uBB38\uC81C
       \uC5C6\uACA0\uC9C0?\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070000
   - id: 60070001
     cardName: "\uAE00\uB9AC\uC2F1\uC789 \uD14C\uD1A0\uC5D8"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC790, \uBAA8\uB450 \uB098\uB780\uD788! \uC6C3\uB294 \uC5BC\uAD74\uB85C
       \uB178\uB798\uD558\uB294 \uAC70\uC57C!\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070001
   - id: 60070002
     cardName: "\uC2A4\uD53C\uB9BF\uC870 \uB9AC\uD590\uB8E8\uB2E4"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC5EC\uAE30\uB294, \uC2E0\uB098\uB294 \uACF3\uC774\uC57C.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070002
   - id: 60070003
     cardName: "\uB2EC\uB824\uB098\uAC00\uB294 \uCCAD\uCD98 \uD558\uC774\uB2E4"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uBA48\uCDB0\uC11C \uC788\uC744 \uC218\uB294 \uC5C6\uC5B4!\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070003
   - id: 60070004
     cardName: "\uC2A4\uB178\uC6B0\uC2A4\uD0B5 \uD30C\uB974\uBE44"
     grade: 0
     power: 4000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC544\uC2AC\uC544\uC2AC \uBC45\uADF8\uB974\uB974, \uB208
@@ -489,106 +445,97 @@ MonoBehaviour:
     effectText: "\u3010\uC601\uC18D\u3011\u3010\uAC00\uB514\uC5B8 \uC11C\uD074\u3011
       : \uC0C1\uB300\uC758 \uBC45\uAC00\uB4DC\uAC00 \uADF8\uB808\uC774\uB4DC 3 \uC774\uC0C1\uC774\uB77C\uBA74,
       \uC774 \uC720\uB2DB\uC758 \uC2E4\uB4DC+5000."
-    availableRarities: 
+    availableRarities: 00000000010000000200000009000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070004
+    - card_60170004
+    - card_60270004
+    - card_60970004
   - id: 60070005
     cardName: "\uC774\uC5B4\uC9C0\uB294 \uB9C8\uC74C \uB8E8\uD53C\uC774\uB098"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC624\uCF00\uC624\uCF00~\u266A \uADF8\uB7FC, \uBAA8\uB450\uC5D0\uAC8C
       \uB9D0\uAC78\uAC8C~!\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070005
   - id: 60070006
     cardName: "\uD53D\uCCD0\uB808\uC2A4\uD06C \uB8E8\uC544\uB098"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC88B\uC740 \uC0AC\uC9C4, \uCC0D\uC5B4\uC918\uC694.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070006
   - id: 60070007
     cardName: "\uD31D\uC544\uC6C3\u30FB\uD504\uB860\uD2B8\uB77C\uC778 \uD788\uC138\uB77C"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC6B0~! \uC608\uC774\u266A\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070007
   - id: 60070008
     cardName: "\uC694\uC5FC\uD55C \uD589\uB3D9 \uC288\uB80C\uD2F0\uC544"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC694\uC5FC\uD55C \uBAB8\uC9D3\uC774, \uD559\uC0DD\uB4E4\uC758
       \uC5F4\uAD11\uC744 \uC790\uC544\uB0B8\uB2E4.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070008
   - id: 60070009
     cardName: "\uD3EC\uC6CC\uB4DC \uD720 \uC138\uB85C\uD0C0"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC5EC\uAE30\uAC00, \uC9C0\uB984\uAE38.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070009
   - id: 60070010
     cardName: "Spiny\u2227Spiky \uD788\uC2A4"
     grade: 0
     power: 0
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 3
     cardType: 3
     flavorText: "\u300E\uC720\uC9C0\uD574 \uAC00\uC790. \uB531 \uC88B\uC740 \uAC70\uB9AC,
@@ -596,127 +543,117 @@ MonoBehaviour:
     effectText: "\u3010\uC790\uB3D9\u3011 : \uC774 \uC720\uB2DB\uC774 \uAC00\uB514\uC5B8
       \uC11C\uD074\uC5D0\uC11C \uD1F4\uAC01\uD588\uC744 \uB54C, \uC774 \uCE74\uB4DC\uB97C
       \uC18C\uC6B8\uC5D0 \uB193\uC544\uB3C4 \uB41C\uB2E4."
-    availableRarities: 
+    availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60070010
+    - card_60170010
+    - card_60370010
   - id: 60080000
     cardName: "Astesice \uCE74\uB098\uBBF8"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uBA38\uBA54\uC774\uB4DC\uB4E4\uC740 \uD3C9\uD654\uB97C \uBC14\uB77C\uBA70,
       \uAC70\uB300 \uD559\uC6D0\uB3C4\uC2DC\uB97C \uAD6C\uCD95\uD588\uB2E4.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080000
+    - card_60180000
+    - card_60280000
   - id: 60080001
     cardName: "\uD53C\uC2A4\uD480\uAC00\uB4E0 \uC544\uB2C8\uCE74"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uC774\uACF3\uC740, \uB2E4\uC815\uD568\uC774 \uAC00\uB4DD\uD55C
       \uADF8\uB140\uC758 \uC815\uC6D0.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080001
   - id: 60080002
     cardName: "\uBD80\uB4DC\uB7EC\uC6B4 \uBE5B \uD504\uB8E8\uC5D8"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uC544\uBB34\uB9AC \uC758\uC695\uC801\uC774\uC5B4\uB3C4 \uBB34\uB300\uC5D0\uC11C
       \uC4F0\uB7EC\uC9C0\uBA74 \uC758\uBBF8 \uC5C6\uB2E4\uAD6C\uC694?\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080002
   - id: 60080003
     cardName: "\uD754\uB4E4\uD754\uB4E4 \uC720\uC720\uC790\uC801 \uB9C8\uB974\uADF8\uB9BF"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uAC04\uC2DD, \uBA39\uC5B4\uB3C4 \uC88B\uC9C0\uB9CC~. \uBA39\uACE0
       \uB2E4\uC2DC \uCC44\uC6CC \uB193\uC73C\uC138\uC694~\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080003
   - id: 60080004
     cardName: "\uC601\uC815\uC758 \uAC00\uD76C \uC624\uB974\uD0C4\uC2A4"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uC18C\uB140\uB294 \uB178\uB798\uD55C\uB2E4. \uB9C8\uC74C\uC18D
       \uAE4A\uC774 \uC2A4\uBA70\uB4DC\uB294, \uBD80\uB4DC\uB7EC\uC6B4 \uC18C\uB9AC\uB97C.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080004
   - id: 60080005
     cardName: "\uD56B \uD734\uC2DD \uD30C\uBE44\uC62C\uB77C"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uC790\uC544, \uCC28\uB77C\uB3C4 \uB9C8\uC2DC\uBA74\uC11C
       \uC9C4\uC815\uD574\uC694~.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080005
   - id: 60080006
     cardName: "Two Of Us \uD50C\uB85C\uC6B0"
     grade: 0
     power: 4000
     shield: 10000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uB0A8\uB2E4\uB978 \uD30C\uB3C4\uB97C \uD0C0\uACE0\r\n\uB0B4\uC77C
@@ -728,19 +665,18 @@ MonoBehaviour:
       \uD06C\uB9AC\uD2F0\uCEEC\uC774 \uCD94\uAC00\uB418\uC5C8\uAC70\uB098, \uC6D0\uB798\uC758
       \uD06C\uB9AC\uD2F0\uCEEC\uC774 2 \uC774\uC0C1\uC774\uB77C\uBA74, \uADF8 \uBC30\uD2C0
       \uC911, \uC774 \uC720\uB2DB\uC758 \uC2E4\uB4DC+15000."
-    availableRarities: 
+    availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080006
+    - card_60380006
   - id: 60080007
     cardName: "Two Of Us \uB77C\uC784"
     grade: 0
     power: 4000
     shield: 10000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uBE44\uB300\uCE6D\uC801\uC778 \uB77C\uC774\uD504\uC2A4\uD0C0\uC77C\r\n\uC0C8\uACA8\uB123\uB294
@@ -751,90 +687,81 @@ MonoBehaviour:
       \uC5B4\uD0DD\uD558\uACE0 \uC788\uB2E4\uBA74, \uADF8 \uBC30\uD2C0 \uC911, \uC774
       \uC720\uB2DB\uC758 \uC2E4\uB4DC+15000. (\uC774 \uBC30\uD2C0\uC744 \uD3EC\uD568\uD574\uC11C
       2\uD68C\uC774\uC0C1 \uC5B4\uD0DD\uD558\uACE0 \uC788\uB2E4\uBA74 \uC720\uD6A8)"
-    availableRarities: 
+    availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080007
+    - card_60380007
   - id: 60080008
     cardName: "\uCCAD\uC801\uC758 \uAC00\uD76C \uC1FC\uB974\uC2DC\uB098"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uADF8\uB7FC, \uC9C0\uCE5C \uC5BC\uAD74\uC744 \uD55C \uB108\uB97C
       \uC704\uD574 \uB178\uB798\uD574 \uC904\uAC8C.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080008
   - id: 60080009
     cardName: "\uACE0\uC591\uC774\uB2D8\uC758 \uC0AC\uB791\uC744 \uB9AC\uC0B0\uB290"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uACE0\uC591\uC774\uB294 \uCD5C\uC0C1\uC758 \uCE58\uC720\uB2E4.
       \uADF8\uAC83\uC740 \uC5B4\uB290 \uB54C\uB098 \uBD88\uBCC0\uC758 \uC9C4\uB9AC.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080009
   - id: 60080010
     cardName: "\uD1A0\uCE74\uD2F0\uBE0C \uC544\uC6CC \uD0C4\uBB34\uC988"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 4
     cardType: 3
     flavorText: "\u300E\uC2A4\uC2A4\uB7FC\uC5C6\uB294 \uC2DC\uAC04. \uADF8\uAC83\uC740
       \uBB34\uC5C7\uACFC\uB3C4 \uBC14\uAFC0 \uC218 \uC5C6\uB294 \uCE58\uC720.\u300F"
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080010
   - id: 60080011
     cardName: "\uCCAD\uC0C1\uC758 \uAC00\uD76C \uBCA0\uB780\uC824"
     grade: 0
     power: 5000
     shield: 15000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 4
     cardType: 3
     flavorText: '-'
     effectText: '-'
-    availableRarities: 
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60080011
   - id: 60090000
     cardName: "\uADF8\uB808\uC774\uD2F0\uC2A4\uD2B8 \u30FB \uC2A4\uD0C0 \uC5D0\uC2A4\uD14C\uB780\uC790"
     grade: 0
     power: 5000
     shield: 50000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 5
     cardType: 3
     flavorText: "\u300E\uC544\uC774\uB3CC \uD65C\uB3D9\uC740 \uADF8\uB140\uC758 \uB4F1\uC7A5\uC73C\uB85C
@@ -848,19 +775,18 @@ MonoBehaviour:
       - \uC774 \uD30C\uC774\uD2B8 \uC911, \uC790\uC2E0\uC740 \u300E\uC790\uC2E0\uC758
       \uD134 \uC911, \uC790\uC2E0\uC758 \uB9AC\uC5B4\uAC00\uB4DC \uC804\uBD80\uC758
       \uD30C\uC6CC+10000!\u300F\uC744 \uC5BB\uB294\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60090000
+    - card_60190000
   - id: 60090001
     cardName: "\uBBF8\uC2A4\uD14C\uB9AC\uC5B4\uC2A4\uD2B8\uC708\uC2A4 \uB85C\uBBF8\uC544&\uB8E8\uBBF8\uC544"
     grade: 0
     power: 5000
     shield: 50000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 5
     cardType: 3
     flavorText: "\u300E\uB354\uBE14 \uBBF8\uC18C\uB85C \uB9E4\uB824\uD558\uB294,
@@ -874,19 +800,19 @@ MonoBehaviour:
       - \uC774 \uD30C\uC774\uD2B8 \uC911, \uC790\uC2E0\uC740 \u300E\uC790\uC2E0\uC758
       \uD134 \uC911, \uC790\uC2E0\uC758 \uB9AC\uC5B4\uAC00\uB4DC \uC804\uBD80\uC758
       \uD30C\uC6CC+10000!\u300F\uC744 \uC5BB\uB294\uB2E4."
-    availableRarities: 
+    availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60090001
+    - card_60190001
+    - card_60290001
   - id: 60090002
     cardName: "\uB370\uBAA8\uB2C9\uD53C\uBC84 \uAC00\uB974\uBE44\uC5D8\uB77C"
     grade: 0
     power: 5000
     shield: 50000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 5
     cardType: 3
     flavorText: "\u300E\uADF8\uB140\uC758 \uB9E4\uB825\uC5D0 \uBE60\uC9C4 \u300C\uAD11\uC2E0\uC790\u300D\uB294
@@ -900,19 +826,18 @@ MonoBehaviour:
       - \uC774 \uD30C\uC774\uD2B8 \uC911, \uC790\uC2E0\uC740 \u300E\uC790\uC2E0\uC758
       \uD134 \uC911, \uC790\uC2E0\uC758 \uB9AC\uC5B4\uAC00\uB4DC \uC804\uBD80\uC758
       \uD30C\uC6CC+10000!\u300F\uC744 \uC5BB\uB294\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60090002
+    - card_60190002
   - id: 60090003
     cardName: "\uD310\uD0C0\uC2A4\uD2F1\uD53C\uB0E5\uB808 \uCEA3\uD2B8\uB9AC\uB098"
     grade: 0
     power: 5000
     shield: 50000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 5
     cardType: 3
     flavorText: "\u300E\uC0C8\uB85C\uC6B4 \uC2DC\uB300\uB97C \uAC1C\uCC99\uD55C,
@@ -926,19 +851,18 @@ MonoBehaviour:
       - \uC774 \uD30C\uC774\uD2B8 \uC911, \uC790\uC2E0\uC740 \u300E\uC790\uC2E0\uC758
       \uD134 \uC911, \uC790\uC2E0\uC758 \uB9AC\uC5B4\uAC00\uB4DC \uC804\uBD80\uC758
       \uD30C\uC6CC+10000!\u300F\uC744 \uC5BB\uB294\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60090003
+    - card_60190003
   - id: 60090004
     cardName: "\uBE14\uB808\uC2F1\uB514\uBC14 \uADF8\uB9AC\uC790\uC5D8"
     grade: 0
     power: 5000
     shield: 50000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 5
     cardType: 3
     flavorText: "\u300E\uBB34\uB300\uC5D0 \uB0B4\uB824\uC628 \uB300\uCC9C\uC0AC.
@@ -952,46 +876,43 @@ MonoBehaviour:
       - \uC774 \uD30C\uC774\uD2B8 \uC911, \uC790\uC2E0\uC740 \u300E\uC790\uC2E0\uC758
       \uD134 \uC911, \uC790\uC2E0\uC758 \uB9AC\uC5B4\uAC00\uB4DC \uC804\uBD80\uC758
       \uD30C\uC6CC+10000!\u300F\uC744 \uC5BB\uB294\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60090004
+    - card_60190004
   - id: 60090005
-    cardName: "\uB2F9\uC2E0\uC5D0\uAC8C \uD654\uAD00\uC744 \uBE45\uD1A0\uC640\uB974"
+    cardName: "\uBDF0\uD2F0\uC5B4\uC2A4\u30FB\uC774\uD130\uB2C8\uD2F0 \uB8E8\uB8E8\uB77C\uD2F0\uC5D0"
     grade: 0
     power: 5000
     shield: 50000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 5
     cardType: 3
-    flavorText: "\u300E\uAF43\uC774 \uD53C\uB294 \uAC83\uCC98\uB7FC. \uC18C\uB140\uB294
-      \uC0B0\uAF2D\uB300\uAE30\uC5D0\uC11C \uAE30\uC801\uC758 \uB178\uB798\uB97C
-      \uBD80\uB978\uB2E4.\u300F"
-    effectText: "(\u3010\uC624\uBC84\uD2B8\uB9AC\uAC70\u3011\uB294 \uB371\uC5D0 1\uC7A5\uB9CC
-      \uB123\uC744 \uC218 \uC788\uB2E4. \uD2B8\uB9AC\uAC70\uB85C \uB098\uC654\uB2E4\uBA74,
-      \uC774 \uCE74\uB4DC\uB97C \uC81C\uC678\uD558\uACE0, 1\uC7A5 \uB4DC\uB85C\uC6B0\uD558\uACE0,
-      \uC790\uC2E0\uC758 \uC720\uB2DB\uC744 1\uC7A5 \uC120\uD0DD\uD574, \uADF8 \uD134
-      \uC911, \uD30C\uC6CC+1\uC5B5! \uB4DC\uB77C\uC774\uBE0C \uCCB4\uD06C\uB85C \uB098\uC654\uB2E4\uBA74,
-      \uC774\uC5B4\uC11C \uCD94\uAC00\uD6A8\uACFC\uAC00 \uBC1C\uB3D9!)\r\n\uCD94\uAC00\uD6A8\uACFC
-      - \uC774 \uD30C\uC774\uD2B8 \uC911, \uC790\uC2E0\uC740 \u300E\uC790\uC2E0\uC758
-      \uD134 \uC911, \uC790\uC2E0\uC758 \uB9AC\uC5B4\uAC00\uB4DC \uC804\uBD80\uC758
-      \uD30C\uC6CC+10000!\u300F\uC744 \uC5BB\uB294\uB2E4."
-    availableRarities: 
+    flavorText: '-'
+    effectText: "\u3010\uC601\uC18D\u3011 : \uC774 \uCE74\uB4DC\uC758 \uC774\uB984\uC740
+      \u300C\uC18C\uC9C4\uC758 \uC815\uB839\uC655 \uBC14\uB974\uB098\uD2B8\u300D\uB85C
+      \uCDE8\uAE09\uD55C\uB2E4.\r\n\uCD94\uAC00 \uD6A8\uACFC - \u3010\uC2A4\uD0E0\uB4DC\u3011\uD558\uACE0
+      \uC788\uB294 \uC790\uC2E0\uC758 \uB9AC\uC5B4\uAC00\uB4DC\uB97C 1\uC7A5 \uC120\uD0DD\uD558\uC5EC,
+      \uADF8 \uD134 \uC911, \u300E\u3010\uC790\uB3D9\u3011\u3010\uB9AC\uC5B4\uAC00\uB4DC
+      \uC11C\uD074\u3011\u3010\uD1341\uD68C\u3011 : \uC774 \uC720\uB2DB\uC774 \uC5B4\uD0DD\uD55C
+      \uBC30\uD2C0 \uC885\uB8CC\uC2DC, \uC774 \uC720\uB2DB\uC744 \u3010\uC2A4\uD0E0\uB4DC\u3011\uC2DC\uD0A8\uB2E4.\u300F\uB97C
+      \uBD80\uC5EC\uD55C\uB2E4. \uC120\uD0DD\uD558\uC9C0 \uC54A\uC558\uB2E4\uBA74,
+      1\uC7A5 \uB4DC\uB85C\uC6B0\uD558\uACE0, \uC790\uC2E0\uC758 \uD328\uC5D0\uC11C
+      \uC720\uB2DB \uCE74\uB4DC\uB97C 1\uC7A5\uAE4C\uC9C0 \uC120\uD0DD\uD558\uC5EC,
+      \uB9AC\uC5B4\uAC00\uB4DC \uC11C\uD074\uC5D0 \uCF5C\uD55C\uB2E4."
+    availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_60090005
   - id: 61000000
     cardName: "Astesice \uB098\uB098\uBBF8"
     grade: 1
     power: 8000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B4\uC11C \uBE68\uB9AC~! \uB2A6\uB294 \uC560\uB294 \uAC04\uC9C0\uB7FD\uD790
@@ -1005,17 +926,17 @@ MonoBehaviour:
       \uB54C, \uADF8 \uD134 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+2000."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_61000000|card_61100000|card_61200000
+    - card_61000000
+    - card_61100000
+    - card_61200000
   - id: 61000001
     cardName: "\uC6B0\uBB3C\uC6B0\uBB3C \uC18C\uB140 \uC2DC\uC57C"
     grade: 1
     power: 3000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB108\uB3C4 \uBA39\uC744\uB798?\u300F"
@@ -1035,10 +956,8 @@ MonoBehaviour:
     power: 7000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC774\uAC74, \uBBF8\uC18C\uB97C \uC9C0\uD0A4\uAE30 \uC704\uD55C
@@ -1052,17 +971,15 @@ MonoBehaviour:
       \uC54A\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_61000001
+    - card_61040000
   - id: 61040001
     cardName: "\uC9C0\uAE30 \uC2EB\uC5B4\uD558\uB294 \uBA85\uB791 \uC0E4\uB974\uCE74"
     grade: 1
     power: 6000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC6A9\uC758 \uD608\uB9E5\uC5D0\uB294 \u300C\uC2B9\uBD80\uC695\u300D\uC758
@@ -1075,19 +992,18 @@ MonoBehaviour:
       \uD788\uD2B8\uB418\uC9C0 \uC54A\uB294\uB2E4. \uC790\uC2E0\uC758 \uD328\uAC00
       2\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uD328\uB97C 1\uC7A5 \uC120\uD0DD\uD574,
       \uBC84\uB9B0\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_61040001
+    - card_61140001
   - id: 61040002
     cardName: "\uC0E4\uBD09 \uC2A4\uD50C\uB798\uC2DC \uB9AC\uBCA0\uB098"
     grade: 1
     power: 6000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBC29\uD574\uD558\uBA74, \uC548\u2014\uB3FC\u2661\u300F"
@@ -1099,19 +1015,18 @@ MonoBehaviour:
       \uD788\uD2B8\uB418\uC9C0 \uC54A\uB294\uB2E4. \uC790\uC2E0\uC758 \uD328\uAC00
       2\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uD328\uB97C 1\uC7A5 \uC120\uD0DD\uD574,
       \uBC84\uB9B0\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_61040002
+    - card_61140002
   - id: 61040003
     cardName: "\uC591\uC9C0\uC758 \uAC00\uD76C \uD06C\uB9AC\uC2A4\uD2F4"
     grade: 1
     power: 6000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB204\uAD6C\uB098 \uB9C8\uC74C\uC744 \uBE7C\uC557\uAE30\uB294,
@@ -1124,19 +1039,18 @@ MonoBehaviour:
       \uD788\uD2B8\uB418\uC9C0 \uC54A\uB294\uB2E4. \uC790\uC2E0\uC758 \uD328\uAC00
       2\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uD328\uB97C 1\uC7A5 \uC120\uD0DD\uD574,
       \uBC84\uB9B0\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_61040003
+    - card_61140003
   - id: 61040004
     cardName: "\uC0C1\uC545\uC704\uC6D0 \uB2C8\uCF5C\uB9AC\uB124"
     grade: 1
     power: 6000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC2EB\uC740 \uC77C \uB530\uC704, \uB178\uB798\uD558\uBA70
@@ -1149,19 +1063,18 @@ MonoBehaviour:
       \uD788\uD2B8\uB418\uC9C0 \uC54A\uB294\uB2E4. \uC790\uC2E0\uC758 \uD328\uAC00
       2\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uD328\uB97C 1\uC7A5 \uC120\uD0DD\uD574,
       \uBC84\uB9B0\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_61040004
+    - card_61140004
   - id: 61040005
     cardName: "\uD504\uB77C\uC774\uBE57\uC740 \uBD88\uCE5C\uC808 \uB370\uC2DC\uC5D8"
     grade: 1
     power: 6000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC545\uC218\uB098 \uB300\uD654\uB294, \uC545\uC218\uD68C
@@ -1174,19 +1087,18 @@ MonoBehaviour:
       \uD788\uD2B8\uB418\uC9C0 \uC54A\uB294\uB2E4. \uC790\uC2E0\uC758 \uD328\uAC00
       2\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uD328\uB97C 1\uC7A5 \uC120\uD0DD\uD574,
       \uBC84\uB9B0\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_61040005
+    - card_61140005
   - id: 61040006
     cardName: "\uAD11\uD654 \uBC18\uC9DD\uC774\uB294 \uB179\uD134 \uC720\uB514\uD2B8"
     grade: 1
     power: 6000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uB2C8\uC640 \uBCF4\uB0B4\uB294 \uC2DC\uAC04\uC740 \uC2E0\uB2D8\uC5D0\uAC8C\uB3C4
@@ -1199,19 +1111,18 @@ MonoBehaviour:
       \uD788\uD2B8\uB418\uC9C0 \uC54A\uB294\uB2E4. \uC790\uC2E0\uC758 \uD328\uAC00
       2\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uD328\uB97C 1\uC7A5 \uC120\uD0DD\uD574,
       \uBC84\uB9B0\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_61040006
+    - card_61340006
   - id: 61040007
     cardName: "\uB530\uB73B\uD560 \uB54C \uB4DC\uC138\uC694 \uC6D4\uBBF8\uC5B4"
     grade: 1
     power: 6000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBB50\uC57C. \uBE68\uB9AC \uBA39\uACE0 \uC2F6\uC740\uB370.
@@ -1224,19 +1135,18 @@ MonoBehaviour:
       \uD788\uD2B8\uB418\uC9C0 \uC54A\uB294\uB2E4. \uC790\uC2E0\uC758 \uD328\uAC00
       2\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uD328\uB97C 1\uC7A5 \uC120\uD0DD\uD574,
       \uBC84\uB9B0\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_61040007
+    - card_61340007
   - id: 61040008
     cardName: "\uCC28\uAD11\uC740 \uC644\uBCBD \uC288\uB8E8\uBB38"
     grade: 1
     power: 6000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uC81C\uB098 \uD587\uC0B4\uC740 \uD06C\uB098\uD070 \uC801\uC774\uB78D\uB2C8\uB2E4\u2026\u2026!\u300F"
@@ -1248,19 +1158,18 @@ MonoBehaviour:
       \uD788\uD2B8\uB2F9\uD558\uC9C0 \uC54A\uB294\uB2E4. \uB2F9\uC2E0\uC758 \uD328\uAC00
       2\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uD328\uC5D0\uC11C 1\uC7A5 \uC120\uD0DD\uD558\uACE0,
       \uBC84\uB9B0\uB2E4."
-    availableRarities: 
+    availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_61040008
+    - card_61340008
   - id: 62000000
     cardName: "Astesice \uD0A4\uC694\uB77C"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC138\uACC4\uB97C \uB204\uBE44\uBA70, \uAC00\uD76C\uB4E4\uC740
@@ -1273,17 +1182,17 @@ MonoBehaviour:
       \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_62000000|card_62100000|card_62200000
+    - card_62000000
+    - card_62100000
+    - card_62200000
   - id: 62000001
     cardName: "\uBD88\uCC30\uB85C \uAE5C\uBE61 \uB9AC\uD074\uB9AC\uC2A4"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uCD9C\uC2E0\uC740 \uC0C1\uAD00\uC5C6\uC5B4. \uB204\uAD6C\uB77C\uB3C4
@@ -1298,10 +1207,8 @@ MonoBehaviour:
     power: 8000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD559\uC6D0\uC5D0\uC11C\uC758 \uACBD\uD5D8\uC740, \uC7A5\uB798
@@ -1319,10 +1226,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC800 \uC544\uC774, \uC624\uB298\uB3C4 \uB178\uB798\uD558\uACE0
@@ -1336,17 +1241,16 @@ MonoBehaviour:
       \uAC83\uC73C\uB85C, 2\uC7A5 \uB4DC\uB85C\uC6B0\uD55C\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000003
+    - card_62100003
   - id: 62000004
     cardName: "Earnescorrect \uBA64\uBC84 \uC5D0\uBE14\uB9B0"
     grade: 2
     power: 8000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC77C\uC871\uC744 \uB300\uD45C\uD55C\uB2E4\uB294\u2014\u2014
@@ -1363,7 +1267,8 @@ MonoBehaviour:
       \uC11C\uD074\uC5D0 \uCF5C\uD55C\uB2E4. \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000004
+    - card_62100004
   - id: 62000005
     cardName: "\uAD88\uB140\uC5D0\uAC8C \uBC14\uCE58\uB294 \uC138\uB808\uB098\uB370
       \uC5D8\uB808\uC624\uB178\uB808"
@@ -1371,10 +1276,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD55C \uACE1 \uB354\uC694? \uB124, \uC5B8\uB2C8\uAC00 \uBD80\uD0C1\uD55C\uB2E4\uBA74
@@ -1387,17 +1290,16 @@ MonoBehaviour:
       \uB193\uB294\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000005
+    - card_62100005
   - id: 62000006
     cardName: "\uBAA8\uC21C\uB41C \uC0C1\uB0E5\uD568 \uBC84\uC9C0\uB2C8\uC544"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBB34\uB300\uC5D0\uC11C \uD53C\uACE4\uD55C \uB0B4\uC0C9\uC774\uB77C\uB2C8,
@@ -1410,17 +1312,16 @@ MonoBehaviour:
       \u3010\uCE74\uC6B4\uD130 \uCC28\uC9C0\u3011(1)."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000006
+    - card_62100006
   - id: 62000007
     cardName: "\uC601\uC7AC\uC640 \uAE30\uD488\uACFC \uC5D8\uB9AC\uC2A4"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC644\uC804\uBB34\uACB0\uD55C \uD589\uB3D9\uAC70\uC9C0\uC5D0,
@@ -1434,17 +1335,16 @@ MonoBehaviour:
       \uCF5C\uD55C\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000007
+    - card_62100007
   - id: 62000008
     cardName: "\uAEBE\uC774\uC9C0 \uC54A\uB294 \uC7AC\uB2A5 \uD5E8\uB9AC\uC5D0\uD0C0"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC2E4\uD328\uD558\uB354\uB77C\uB3C4, \uB9C8\uC9C0\uB9C9\uC5D0\uB294
@@ -1457,17 +1357,16 @@ MonoBehaviour:
       \uC2E4\uB4DC\uB9CC\uD07C, \uB298\uB9B0\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000008
+    - card_62100008
   - id: 62000009
     cardName: "\uB367\uC5C6\uB294 \uB3D9\uACBD \uBC14\uB8E8\uC5D8"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB2FF\uC9C0 \uC54A\uC744\uC9C0\uB3C4 \uBAB0\uB77C. \uADF8\uB798\uB3C4
@@ -1485,17 +1384,16 @@ MonoBehaviour:
       2\uBC88 \uC120\uD0DD\uD560 \uC21C \uC5C6\uB2E4)"
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000009
+    - card_62100009
   - id: 62000010
     cardName: "Earnescorrect \uBA64\uBC84 \uCE74\uD0C8\uB9B0"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC544\uAC00\uC528\uC758 \uD654\uB824\uD55C \uBB34\uB300,
@@ -1508,17 +1406,15 @@ MonoBehaviour:
       \uC720\uB2DB\uC744 \u3010\uC2A4\uD0E0\uB4DC\u3011\uC2DC\uD0A8\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000010
   - id: 62000011
     cardName: "\uC788\uB294 \uADF8\uB300\uB85C \uBE5B\uB098\uB294 \uC544\uB808\uC2A4\uD2F0\uC5D8"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B4\uB290 \uCABD\uC758 \uB098\uB3C4, \uBD84\uBA85 \uC9C4\uC815\uD55C
@@ -1538,17 +1434,16 @@ MonoBehaviour:
       \uC9DD\uC218\uB9CC \uC788\uC73C\uBA74 \uC720\uD6A8)"
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000011
+    - card_62100011
   - id: 62000012
     cardName: "\uD5A5\uB77D\uC758 \uC7AC\uC6D0 \uD3A0\uD2F0\uB85C\uC790"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBC40\uD30C\uC774\uC5B4"
-    tribeList:
-    - "\uBC40\uD30C\uC774\uC5B4"
+    countryList: 05000000
+    tribeList: 07000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uADF8\uB7F0 \uACF3\uC5D0 \uC228\uC5B4 \uC788\uC9C0 \uB9D0\uACE0,
@@ -1564,17 +1459,16 @@ MonoBehaviour:
       3\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000012
+    - card_62100012
   - id: 62000013
     cardName: "\uC815\uD655\uD55C \uC74C\uC815 \uD074\uB77C\uB9AC\uC0AC"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBAA8\uB450\uC758 \uAE30\uB300, \uD5DB\uB418\uC774 \uD558\uC9C0
@@ -1591,17 +1485,16 @@ MonoBehaviour:
       \uC5C6\uB2E4\uBA74, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000013
+    - card_62100013
   - id: 62000014
     cardName: "\uCC9C\uC0C1 \uB9AC\uC0AC\uC774\uD2C0 \uC5D0\uB9C8\uC5D8"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC601\uD63C\uC744 \uC6B8\uB9AC\uB294, \uD68C\uC2EC\uC758
@@ -1615,17 +1508,15 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC744 \uC18C\uC6B8\uC5D0 \uB193\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000014
   - id: 62000015
     cardName: "\uAF43\uD53C\uB294 \uB178\uB7AB\uC18C\uB9AC \uB85C\uB85C\uB124\uB864"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC465\uC465~\u266A \uAC74\uAC15\uD558\uAC8C~\u266A \uC131\uC7A5\uD558\uB294
@@ -1641,17 +1532,16 @@ MonoBehaviour:
       \uD328\uC5D0\uC11C \uB193\uC558\uB2E4\uBA74, 1\uC7A5 \uB4DC\uB85C\uC6B0\uD55C\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000015
+    - card_62100015
   - id: 62000016
     cardName: "\uD3BC\uCCD0\uC9C0\uB294 \uC138\uACC4 \uC70C\uB9AC\uC2A4\uD0C0"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB9E4\uC77C\uC774 \uC0C8\uB85C\uC6B4 \uC77C\uC758 \uC5F0\uC18D\uC774\uB77C\u2026\u2026
@@ -1663,17 +1553,16 @@ MonoBehaviour:
       2\uC7A5\uB2F9, \uC774 \uC720\uB2DB\uC758 \uC2E4\uB4DC+5000."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000016
+    - card_62100016
   - id: 62000017
     cardName: "\uBBF8\uC2A4\uD2F1\uBCF4\uC774\uC2A4 \uB808\uB098\uD0C0"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBC1C\uAD70\uC758 \uAC00\uCC3D\uB825\uC73C\uB85C, \uC5B4\uB5A0\uD55C
@@ -1685,17 +1574,15 @@ MonoBehaviour:
       \uB193\uACE0, \uB098\uBA38\uC9C0\uB97C \uC18C\uC6B8\uC5D0 \uB193\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000017
   - id: 62000018
     cardName: "\uC560\uB4DC\uBCA4\uD2B8\uC2A4\uD2B8\uB85C\uD06C \uC170\uB2E4\uC5D8"
     grade: 2
     power: 8000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB0A9\uB4DD\uC774 \uAC08 \uB54C\uAE4C\uC9C0, \uBA87 \uBC88\uC774\uB77C\uB3C4\uC694!\u300F"
@@ -1711,17 +1598,15 @@ MonoBehaviour:
       \uC54A\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000018
   - id: 62000019
     cardName: "\uB2EC\uCF64\uD55C \uC74C\uC0C9 \uD06C\uB9BC\uD790\uD2B8"
     grade: 2
     power: 8000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC751, \uC5F0\uC8FC\uD574 \uB4DC\uB9B4\uAC8C\uC694. \uBA38\uB9AC,
@@ -1733,17 +1618,15 @@ MonoBehaviour:
       \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000019
   - id: 62000020
     cardName: "\uB9D1\uC544\uC9C0\uB294 \uC6CC\uB4DC\uC13C\uC2A4 \uD504\uB864"
     grade: 2
     power: 6000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD55C\uC21C\uAC04\uC758 \uBC88\uB729\uC784\uC5D0 \uC2EC\uD608\uC744
@@ -1757,17 +1640,15 @@ MonoBehaviour:
       \uCE74\uB4DC\uB97C \uB371 \uC544\uB798\uC5D0 \uB193\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000020
   - id: 62000021
     cardName: "\uC801\uC5B4\uB450\uB294 \uC0DD\uAC01 \uB85C\uB9C8\uB098"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uCCA0\uC790\uB97C \uC5EE\uC740 \uB9C8\uC74C\uC758 \uBAA8\uC591.
@@ -1779,17 +1660,15 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000021
   - id: 62000022
     cardName: "\uBA3C\uACF3\uC73C\uB85C\uC758 \uBE44\uC0C1 \uCCB4\uB974\uC5D8"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB098\uB791 \uD568\uAED8 \uB0A0\uC544\uC624\uB974\uC790!
@@ -1804,17 +1683,15 @@ MonoBehaviour:
       \uC218 \uC5C6\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000022
   - id: 62000023
     cardName: "\uCE5C\uC704\uB300\uC7A5 \uB9C8\uB97C\uB80C"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uB2C8\uC5D0\uAC8C \uB2E4\uAC00\uAC00\uB294 \uBB34\uB9AC\uB294~,
@@ -1825,17 +1702,15 @@ MonoBehaviour:
       \uD30C\uC6CC+2000/\uC2E4\uB4DC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000023
   - id: 62000024
     cardName: "\uD558\uC6B8\uB9C1\uBC1C\uB77C\uB4DC \uD30C\uB098\uC5D8"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC6B0\uC544\uD558\uAC8C \uCDA4\uCD94\uBA70, \uC2AC\uD514\uC744
@@ -1847,17 +1722,15 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC740 \u300E\uBD80\uC2A4\uD2B8\u300F\uB97C \uC5BB\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000024
   - id: 62000025
     cardName: "\uD504\uB80C\uB4DC\uC2ED \uC774\uB8E8\uB2E4"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD074\uB798\uC2A4\uBA54\uC774\uD2B8\uB294 \uCD5C\uAC15\uC758
@@ -1872,17 +1745,15 @@ MonoBehaviour:
       \uC2E4\uD589\uD568)"
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000025
   - id: 62000026
     cardName: "\uC313\uC544\uC62C\uB9B0 \uB3D9\uACBD \uD558\uC774\uB974\uBE44\uD788"
     grade: 2
     power: 10000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uACC1\uC5D0 \uC788\uB294 \uAC83 \uB9CC\uC73C\uB85C\uB3C4,
@@ -1893,17 +1764,15 @@ MonoBehaviour:
       \uB193\uC74C] \uD558\uB294 \uAC83\uC73C\uB85C, 1\uC7A5 \uB4DC\uB85C\uC6B0\uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000026
   - id: 62000027
     cardName: "\uAC10\uC815\uC744 \uB2F4\uC544 \uC5D0\uBCA8\uB9AC\uB098"
     grade: 2
     power: 9000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uACE1\uC5D0 \uB300\uD55C \uC774\uD574\uB97C \uB192\uC5EC,
@@ -1915,17 +1784,15 @@ MonoBehaviour:
       \uADF8 \uBC30\uD2C0 \uC911, \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000027
   - id: 62000028
     cardName: "\uCC60\uBC0D\uC2A4\uB9C8\uC77C \uCCB4\uCE60\uB9AC\uC57C"
     grade: 2
     power: 9000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBAA8\uB450 \uBAA8\uC5EC\uC11C, \uC990\uAC70\uC6CC \uBCF4\uC774\uB124\uC694.\u300F"
@@ -1936,17 +1803,16 @@ MonoBehaviour:
       \uAC83\uC73C\uB85C, 1\uC7A5 \uB4DC\uB85C\uC6B0\uD55C\uB2E4."
     availableRarities: 0000000009000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000028
+    - card_62900028
   - id: 62000029
     cardName: "\uCDA4\uCD94\uB294 \uC624\uC120\uBCF4 \uC5D0\uB974\uBA54\uB974"
     grade: 2
     power: 9000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD758\uB85C\uB118\uCE58\uB294 \uAC83\uC740, \uCD94\uC5B5\uC758
@@ -1958,17 +1824,16 @@ MonoBehaviour:
       \uADF8 \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uC2E4\uB4DC+5000."
     availableRarities: 0000000009000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000029
+    - card_62900029
   - id: 62000030
     cardName: "\uACBD\uC7C1\uC2EC \uC77C\uB4F1 \uD2B8\uB808\uC778"
     grade: 2
     power: 9000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC800 \uB140\uC11D\uC774 \uD560 \uC218 \uC788\uB2E4\uBA74,
@@ -1978,17 +1843,15 @@ MonoBehaviour:
       \uC5BB\uACE0, \uD30C\uC6CC-2000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000030
   - id: 62000031
     cardName: "\uC0AC\uB791\uC744 \uBC14\uB77C\uBCF4\uBA70 \uD2F8\uC2A4\uC5D8"
     grade: 2
     power: 8000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB2E8\uC9C0, \uAC74\uAC15\uD588\uC73C\uBA74 \uD574\uC11C\u2026\u2026.\u300F"
@@ -1999,17 +1862,15 @@ MonoBehaviour:
       \u3010\uB808\uC2A4\uD2B8\u3011 \uC2DC\uD0A8\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000031
   - id: 62000032
     cardName: "\uC2DC\uC6D0\uC2DC\uC6D0 \uC5B8\uB2C8 \uC624\uB4DC\uB9AC"
     grade: 2
     power: 8000
     shield: 5000
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC774\uBD10, \uAC00\uC790\uAD6C?\u300F"
@@ -2018,17 +1879,15 @@ MonoBehaviour:
       \uCE74\uB4DC\uAC00 \uC788\uB2E4\uBA74, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_62000032
   - id: 63000000
     cardName: "Astesice \uCE74\uC774\uB9AC"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBAA8\uC5EC\uB4E0 \uCC2C\uB780\uD55C \uC5EC\uC12F \uC7AC\uB2A5.
@@ -2045,17 +1904,17 @@ MonoBehaviour:
       \uB9AC\uC5B4\uAC00\uB4DC \uC11C\uD074\uC5D0 \uAC01\uAC01 1\uC7A5\uC529 \uCF5C\uD55C\uB2E4."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_63000000|card_63100000|card_63200000
+    - card_63000000
+    - card_63100000
+    - card_63200000
   - id: 63000001
     cardName: "\uD798\uCC2C \uB4F1\uAD50 \uCEAC\uB974\uD53C"
     grade: 3
     power: 10000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC624\uB298\uC740 \uC9C0\uAC01, \uD558\uBA74 \uC548 \uB418\uB2C8\uAE4C!\u300F"
@@ -2071,10 +1930,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uAC15\uD558\uAC8C, \uAE30\uD488\uC788\uAC8C, \uC544\uB984\uB2F5\uAC8C!
@@ -2092,17 +1949,15 @@ MonoBehaviour:
       \uC120\uD0DD\uD574, \uADF8 \uD134 \uC911, \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000002
   - id: 63000003
     cardName: "\uC30D\uC775\uC758 \uB300\uCC9C\uC0AC \uC544\uB808\uC2A4\uD2F0\uC5D8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD770 \uB0A0\uAC1C\uB294 \uAE30\uC068\uC744 \uC8FC\uACE0,
@@ -2120,17 +1975,17 @@ MonoBehaviour:
       \uC9DD\uC218\uB9CC \uC788\uC73C\uBA74 \uC720\uD6A8)"
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000003
+    - card_63100003
+    - card_63200003
   - id: 63000004
     cardName: "\uD558\uD2B8\uD3A0\uD2B8\uC1A1 \uB85C\uB85C\uB124\uB864"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB9C8\uC74C\uC744 \uB2F4\uC544\uC11C! \uB85C\uB85C\uC758
@@ -2149,17 +2004,17 @@ MonoBehaviour:
       \uC218 \uC5C6\uB2E4."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000004
+    - card_63100004
+    - card_63200004
   - id: 63000005
     cardName: "\uD504\uB9AC\uC988\uB9C8\uC9C0\uCE74 \uC70C\uB9AC\uC2A4\uD0C0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBC18\uB4DC\uC2DC, \uD1B1 \uC544\uC774\uB3CC\uC774 \uB418\uC5B4
@@ -2178,17 +2033,17 @@ MonoBehaviour:
       \uD30C\uC6CC+5000."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000005
+    - card_63100005
+    - card_63200005
   - id: 63000006
-    cardName: "        \uC3DF\uC544\uC9C0\uB294 \uAC00\uC131 \uC5D0\uB974\uCF00\uC5D8"
+    cardName: "\uC3DF\uC544\uC9C0\uB294 \uAC00\uC131 \uC5D0\uB974\uCF00\uC5D8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBD84\uBA85, \uC774\uB8F0 \uC218 \uC788\uB294 \uAFC8\uC774
@@ -2203,17 +2058,16 @@ MonoBehaviour:
       \uB41C\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000006
+    - card_63100006
   - id: 63000007
     cardName: "\uC9C0\uCF1C\uBCF4\uB294 \uC2EC\uC560 \uC624\uD2F0\uB9AC\uC5D0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB2F9\uC2E0\uC774 \uB204\uAD6C\uBCF4\uB2E4 \uC5F4\uC2EC\uD788
@@ -2228,7 +2082,8 @@ MonoBehaviour:
       \uD50C\uB808\uC774 \uD68C\uC218\uAC00 \uB298\uC5B4\uB09C\uB2E4)"
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000007
+    - card_63100007
   - id: 63000008
     cardName: "\uB3CC\uACE0 \uB3C4\uB294 \uBCC4\uC758 \uCE74\uD504\uB9AC\uCE58\uC624
       \uC789\uADF8\uB9AC\uD2B8"
@@ -2236,10 +2091,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uB2C8\uC758 \uBCC0\uB355\uC5D0, \uC989\uD765\uC801\uC73C\uB85C
@@ -2255,17 +2108,16 @@ MonoBehaviour:
       \uB371 \uC544\uB798\uC5D0 \uB193\uB294\uB2E4. (\uBC18\uB4DC\uC2DC \uC2E4\uD589\uD55C\uB2E4)"
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000008
+    - card_63100008
   - id: 63000009
     cardName: "\uC18C\uC554\uC6D4\uC758 \uB860\uB3C4 \uD3A0\uD2F0\uB85C\uC790"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBC40\uD30C\uC774\uC5B4"
-    tribeList:
-    - "\uBC40\uD30C\uC774\uC5B4"
+    countryList: 05000000
+    tribeList: 07000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBC24\uD558\uB298\uC5D0 \uB2EC\uC774 \uBE5B\uB098\uB294 \uB3D9\uC548,
@@ -2283,17 +2135,17 @@ MonoBehaviour:
       \uCD94\uAC00\uB85C 1\uD68C\uD560 \uC218 \uC788\uB2E4)"
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000009
+    - card_63100009
+    - card_63200009
   - id: 63000010
     cardName: "\uB7EC\uBC84\uBE14\uB4DC\uB808\uC2A4 \uB9AC\uC7C8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB204\uAD6C\uD558\uACE0\uB4E0 \uC0AC\uC774\uC88B\uAC8C \uC9C0\uB0BC
@@ -2307,17 +2159,15 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000010
   - id: 63000011
     cardName: "\uC140\uD53C\uD504\uB799\uD2F0\uC2A4 \uC548\uB124\uB9AC\uC81C"
     grade: 3
     power: 12000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC774\uCABD\uC774 \uC880 \uB354\u2026... \uC544\uB2C8, \uC774
@@ -2330,17 +2180,15 @@ MonoBehaviour:
       \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000011
   - id: 63000012
     cardName: "\uB458\uC774\uC11C \uC774\uB8E8\uB294 \uC18C\uC6D0 \uBBF8\uB9AC\uC544"
     grade: 3
     power: 11000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC74F~\uCC28! \uC88B\uC544! \uC790\uC728\uC5F0\uC2B5, \uD558\uB7EC
@@ -2353,17 +2201,15 @@ MonoBehaviour:
       \uCF5C\uD558\uACE0, \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000012
   - id: 63000013
     cardName: "\uD30C\uC6CC\uD480\uB300\uC2DC \uC564\uB4DC\uB77C"
     grade: 3
     power: 10000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC790\uC2E0 \uC788\uC5B4! \uB0A0 \uC2DC\uCF1C\uC918!\u300F"
@@ -2374,17 +2220,15 @@ MonoBehaviour:
       \uD06C\uB9AC\uD2F0\uCEEC+1."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000013
   - id: 63000014
     cardName: "\uBE0C\uB808\uC774\uB2C8\uD50C\uB808\uC774\uC5B4 \uBE44\uBE0C\uC5D8"
     grade: 3
     power: 8000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBBF8\uB798\uB294 \uBC14\uAFC0 \uC218 \uC788\uC5B4. \uC5B8\uC81C\uB098
@@ -2400,17 +2244,15 @@ MonoBehaviour:
       \uC11C\uD074\u3011 : \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000/\uC2E4\uB4DC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000014
   - id: 63000015
     cardName: "\uC708\uB514\uD558\uB974\uBAA8\uB2C8\uCE74 \uD154\uD14C\uC2A4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBC14\uB78C\uACFC \uD568\uAED8 \uC5F0\uC8FC\uD558\uB294,
@@ -2421,17 +2263,15 @@ MonoBehaviour:
       \uD134 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000015
   - id: 63000016
     cardName: "\uC18C\uD53C\uC2A4\uD2F0\uCF00\uC774\uD2B8 \uD154\uB808\uC9C0\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC138\uB828\uB418\uACE0 \uBD80\uB4DC\uB7EC\uC6B4 \uBAB8\uC9D3\uC740,
@@ -2444,17 +2284,15 @@ MonoBehaviour:
       \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000016
   - id: 63000017
     cardName: "\uD0DC\uD3C9\uD55C \uC218\uB2E4\uC7C1\uC774 \uD544\uB85C\uBA54\uB098"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC774\uCABD\uC73C\uB85C \uC640~. \uAC19\uC774 \uC774\uC57C\uAE30\uD558\uC790~\u300F"
@@ -2465,17 +2303,15 @@ MonoBehaviour:
       \uD69F\uC218\uAC00 \uB298\uC5B4\uB09C\uB2E4)"
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000017
   - id: 63000018
     cardName: "\uAC00\uC2B4\uC5D0 \uC0AC\uBB34\uCE58\uB294 \uBAA8\uC815 \uD50C\uB85C\uB80C\uCE58\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uB2C8\uC5D0 \uB300\uD55C \uC0AC\uB791\uC758 \uBB34\uAC8C\uB294
@@ -2488,17 +2324,15 @@ MonoBehaviour:
       \uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000018
   - id: 63000019
     cardName: "\uD3EC\uC9C0\uD2F0\uBE0C\uC2F1\uC789 \uB85C\uC6B0\uC250"
     grade: 3
     power: 11000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD55C \uC74C\uC808 \uD55C \uC74C\uC808\uC744 \uC815\uC911\uD558\uAC8C.\u300F"
@@ -2508,17 +2342,15 @@ MonoBehaviour:
       \uD30C\uC6CC+2000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000019
   - id: 63000020
     cardName: "\uC561\uD2F0\uBE0C\uB77C\uC774\uD504 \uC81C\uB9AC"
     grade: 3
     power: 10000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC81C\uB300\uB85C \uBAB8\uC744 \uB2E8\uB828\uC2DC\uCF1C\uC57C
@@ -2531,17 +2363,15 @@ MonoBehaviour:
       \uC911, \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000020
   - id: 63000021
     cardName: "\uBBF8\uB4DC\uB098\uC774\uD2B8\uB808\uC2A8 \uBC18\uB290"
     grade: 3
     power: 8000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBC24\uC758 \uD2B9\uBCC4 \uC218\uC5C5, \uAC19\uC774 \uD560\uB798?\u300F"
@@ -2553,17 +2383,15 @@ MonoBehaviour:
       \uC11C\uD074\uC5D0 \uCF5C\uD558\uACE0, \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000021
   - id: 63000022
     cardName: "\uCEE4\uBC0D \u30FB \uBDF0\uD2F0 \uC5D0\uB974\uBBF8\uB2C8\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC6B0\uB9AC\uB4E4\uC774 \uC77C\uC73C\uD0A4\uB294 \uBB34\uBE0C\uBA3C\uD2B8,
@@ -2582,17 +2410,17 @@ MonoBehaviour:
       (1) \uAC10\uC18C\uD55C\uB2E4."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000022
+    - card_63100022
+    - card_63200022
   - id: 63000023
     cardName: "\uC2E0\uD2F0\uB808\uC774\uD2B8 \u30FB \uB808\uC774\uC988 \uC624\uD544\uB9AC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD568\uAED8 \uB192\uC740 \uACF3\uC744 \uC9C0\uD5A5\uD558\uB294
@@ -2612,17 +2440,16 @@ MonoBehaviour:
       \u3010\uC2A4\uD0E0\uB4DC\u3011\uC2DC\uD0A4\uACE0, \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000023
+    - card_63100023
   - id: 63000024
     cardName: "MiMish \uD3EC\uB974\uD2F0\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB2E4 \uAC19\uC774 \uB9CC\uB4E4\uACE0 \uC2F6\uC5B4\uC694!
@@ -2639,17 +2466,17 @@ MonoBehaviour:
       \u3010\uC2A4\uD0E0\uB4DC\u3011\uC2DC\uD0A4\uACE0, \uADF8 \uD134 \uC911, \uD30C\uC6CC+5000/\uB4DC\uB77C\uC774\uBE0C-1."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000024
+    - card_63100024
+    - card_63200024
   - id: 63000025
     cardName: "\uC790\uC2E0\uC5D0 \uB300\uD55C \uB3C4\uC804 \uD1A0\uB974\uB514"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B4\uB835\uB124\uC694. \uD558\uC9C0\uB9CC, \uC774\uAC78
@@ -2664,17 +2491,16 @@ MonoBehaviour:
       \uB371\uC5D0\uC11C \uCC3E\uC558\uB2E4\uBA74, \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000025
+    - card_63100025
   - id: 63000026
     cardName: "\uAC10\uC2F8\uB294 \uC740\uC815 \uD1A0\uB974\uD06C\uC5D8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB0A0\uAC1C\uB97C \uC544\uB984\uB2F5\uAC8C \uAC00\uB2E4\uB4EC\uC5B4,
@@ -2687,17 +2513,16 @@ MonoBehaviour:
       \uB193\uC744 \uC218 \uC788\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000026
+    - card_63100026
   - id: 63000027
     cardName: "\uBCA0\uC774\uB529\uD30C\uC6B4\uD2F4 \uD14C\uB974\uC5D0\uC2A4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD6D7\uB0A0, \u300C\uBD84\uC218\uC5D0\uC11C \uC218\uC601
@@ -2713,17 +2538,16 @@ MonoBehaviour:
       \uC911, \uD30C\uC6CC+5000."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000027
+    - card_63100027
   - id: 63000028
     cardName: "\uD568\uAED8 \uB3CC\uC544\uAC00\uB294 \uAE38 \uC5D0\uB974\uBE44"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC788\uC796\uC544, \uC624\uB298\uC740 \uC5B4\uB514 \uAC00~?\u300F"
@@ -2736,17 +2560,16 @@ MonoBehaviour:
       \uD560 \uC218 \uC788\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000028
+    - card_63100028
   - id: 63000029
     cardName: "\uC758\uC695\uCDA9\uBD84! \uC54C\uB808\uD2B8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC751~! \uADF8\uB7FC, \uC624\uB298\uB3C4 \uD798\uB0B4\uC790!\u300F"
@@ -2761,17 +2584,16 @@ MonoBehaviour:
       \uD558\uB294 \uAC83\uC73C\uB85C, \uC774 \uC720\uB2DB\uC744 \uD328\uB85C \uB418\uB3CC\uB9B0\uB2E4."
     availableRarities: 0000000001000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000029
+    - card_63100029
   - id: 63000030
     cardName: "\uD5C8\uB465\uC9C0\uB465 \uD328\uB2C9 \uD504\uB85C\uCCB4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC2E4\uD328\uB294, \uB2E4\uC74C \uC131\uACF5\uC758 \uC591\uC2DD\uC774
@@ -2781,17 +2603,15 @@ MonoBehaviour:
       \uBD88\uB800\uB2E4\uBA74, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000030
   - id: 63000031
     cardName: "\uCCAD\uCC9C\uC758 \uD61C\uAD11 \uB77C\uC2DC\uC5D8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC21C\uBC31\uC758 \uC18C\uB9DD\uC774 \uD558\uB298\uC5D0 \uB2FF\uC73C\uBA74,
@@ -2804,17 +2624,15 @@ MonoBehaviour:
       \uC5BB\uACE0, \uC2E4\uB4DC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000031
   - id: 63000032
     cardName: "\uC0AC\uC774\uC88B\uC740 \uBE44\uACB0 \uCFE0\uCE74"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC774\uB807\uAC8C \uB178\uB798 \uBD80\uB974\uBA74 \uB9D0\uC774\uC9C0,
@@ -2829,17 +2647,15 @@ MonoBehaviour:
       \uC11C\uD074\uC5D0 \uCF5C\uD558\uACE0, \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000032
   - id: 63000033
     cardName: "\uB124\uCD94\uB7F4\uCC98\uD504 \uBA5C\uB9AC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD0C0\uACE0\uB09C \uAD11\uCC44\uB97C \uC5F0\uB9C8\uD574\uC57C\uB9CC
@@ -2853,17 +2669,15 @@ MonoBehaviour:
       \uB193\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000033
   - id: 63000034
     cardName: "\uBC30\uC2DC\uD480\uC2A4\uD2B8\uB77C\uC774\uBC84 \uD0A8\uD0A4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB3D9\uACBD\uC744 \uB4A4\uCAD3\uC544 \uAC00. \uC5B8\uC820\uAC00\uB294
@@ -2878,17 +2692,16 @@ MonoBehaviour:
       \uD30C\uC6CC+10000."
     availableRarities: 0000000009000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000034
+    - card_63900034
   - id: 63000035
     cardName: "\uB611\uBC14\uB85C \uBC14\uB77C\uBCF4\uBA70 \uCF58\uC2A4\uD0C4\uCCB4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC9C8 \uC0DD\uAC01\uC740 \uC5C6\uC5B4\uC694. \uC5B8\uB2C8
@@ -2900,17 +2713,15 @@ MonoBehaviour:
       \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000035
   - id: 63000036
     cardName: "\uB9C8\uC74C\uC774 \uB4E4\uB72C \uC190\uB05D \uC5D0\uB378\uAC00\uB974\uD2B8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uB2C8\uC5D0\uAC8C \uB4E4\uB824\uC8FC\uB294 \uAC83\uC774
@@ -2921,17 +2732,15 @@ MonoBehaviour:
       \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+2000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000036
   - id: 63000037
     cardName: "\uB3C5\uC2E4\uD55C \uB208\uB3D9\uC790 \uB9AC\uB9AC\uC544\uB098"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC804\uC124\uC758 \uAC00\uD76C\uB4E4\uC774 \uB0A8\uAE34 \uC2DC.
@@ -2943,17 +2752,15 @@ MonoBehaviour:
       \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000037
   - id: 63000038
     cardName: "\uC5F0\uC7A5\uC758 \uC5EC\uC720 \uC544\uB974\uD0C0\uB9AC\uC5D8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D4\uC824"
-    tribeList:
-    - "\uC5D4\uC824"
+    countryList: 05000000
+    tribeList: 03000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD5A5\uAE30\uB97C \uC990\uAE30\uB294 \uC5EC\uC720\uB97C,
@@ -2963,17 +2770,15 @@ MonoBehaviour:
       \u300E\uBD80\uC2A4\uD2B8\u300F\uB97C \uC5BB\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000038
   - id: 63000039
     cardName: "\uB9CC\uC804\uC758 \uB098\uB85C \uD53C\uC548\uB9C8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC800\uB294 \uB2E4\uC74C \uC218\uC5C5 \uC900\uBE44\uAC00
@@ -2983,17 +2788,15 @@ MonoBehaviour:
       \uB54C, \uC774 \uC720\uB2DB\uC744 \uD328\uB85C \uB418\uB3CC\uB9B4 \uC218 \uC788\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000039
   - id: 63000040
     cardName: "\uBE44\uD305\uD558\uD2B8 \uCE74\uBC00\uB77C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC544\uCC28\u2026...\uD3C9\uC815\uC2EC\u2026...\uD3C9\uC815\uC2EC...\u2026!\u300F"
@@ -3003,17 +2806,15 @@ MonoBehaviour:
       \uD30C\uC6CC+2000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000040
   - id: 63000041
     cardName: "IridescencePalette \uD558\uC81C\uB9AC\uD2B8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD654\uB824\uD558\uACE0 \uBA4B\uC9C4 \uB9CC\uB0A8\uC744,
@@ -3030,17 +2831,17 @@ MonoBehaviour:
       \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000041
+    - card_63200041
+    - card_63300041
   - id: 63000042
     cardName: "\uADF8\uB9AC\uBAA8\u30FB\uC5D0\uD22C\uC54C \uB8E8\uD14C\uC2DC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB098\uB97C \uC751\uC6D0\uD574\uC900\uB2E4. \uADF8 \uAE30\uB300\uC5D0\uB294
@@ -3060,17 +2861,17 @@ MonoBehaviour:
       \uC2DC\uD0A4\uACE0, \uADF8 \uD134 \uC911, \uB4DC\uB77C\uC774\uBE0C-1."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000042
+    - card_63200042
+    - card_63300042
   - id: 63000043
     cardName: "\uD558\uC774\uC5D0\uC2A4\uD2B8\u30FB\uB4DC\uB9AC\uBA38 \uB9B4\uD30C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC790\uC774\uC5B8\uD2B8"
-    tribeList:
-    - "\uC790\uC774\uC5B8\uD2B8"
+    countryList: 05000000
+    tribeList: 06000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uAFC8\uC740 \uD06C\uAC8C! \uB354 \uD06C\uAC8C! \uADF8\uB798,
@@ -3091,17 +2892,17 @@ MonoBehaviour:
       \uB9AC\uC5B4\uAC00\uB4DC \uC11C\uD074\uC5D0 \uCF5C\uD55C\uB2E4."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000043
+    - card_63200043
+    - card_63300043
   - id: 63000044
     cardName: "\uD328\uC154\uB2C8\uD2B8\u30FB\uB514\uBCF4\uD2F0 \uC288\uD2B8\uB808\uB370"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB9B4\uCA29, \uC624\uB298\uB3C4 \uD06C\uACE0 \uADC0\uC5EC\uC6CC\u2026\u2026\u2661\u300F"
@@ -3115,17 +2916,16 @@ MonoBehaviour:
       \uD558\uB294 \uAC83\uC73C\uB85C, 1\uC7A5 \uB4DC\uB85C\uC6B0\uD55C\uB2E4."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000044
+    - card_63300044
   - id: 63000045
     cardName: "\uD401\uB2F9\u30FB\uC194\uB7EC\uC2A4 \uBA54\uB514\uC5D8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBAA8\uB450\uB97C \uCE58\uC720\uD558\uB294 \uC791\uC740 \uD589\uBCF5.
@@ -3145,17 +2945,17 @@ MonoBehaviour:
       \uB41C \uCE74\uB4DC\uB294 \uC6D0\uB798\uB300\uB85C \uB418\uB3CC\uB9BC)"
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000045
+    - card_63200045
+    - card_63300045
   - id: 63000046
     cardName: "#Make_A_Trend!! \uCFC4\uC6B0\uCE74"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC774\uC81C\uBD80\uD134, \uC6B0\uB9AC\uC758 \uD2B8\uB80C\uB4DC!
@@ -3174,7 +2974,9 @@ MonoBehaviour:
       \uC790\uC2E0 \uC55E\uC5F4 \uC720\uB2DB \uC804\uBD80\uC758 \uD30C\uC6CC+5000."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000046
+    - card_63200046
+    - card_63300046
   - id: 63000047
     cardName: "\uAFC8\uC744 \uD5A5\uD574 \uC81C\uC77C \uBA3C\uC800 \uB3C4\uCC29!
       \uBBF8\uCE04"
@@ -3182,10 +2984,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBC30\uD2C0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uBC30\uD2C0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0d000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC88B-\uC544, \uD574\uBCF4\uC790-!\u300F"
@@ -3205,17 +3005,17 @@ MonoBehaviour:
       \uAD6C\uD558\uB294 \uD669\uAD6C\uC790\uAE00\uB9AC\uD130\uC774\uB2E4)"
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000047
+    - card_63200047
+    - card_63300047
   - id: 63000048
     cardName: "\uC5BC\uB9AC\uC5B4\uB2F5\uD130 \uB85C\uBE44\uC0AC"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC548\uD14C\uB098\uB294 \uD56D\uC0C1 \uB192\uAC8C \"\uAD11\uCC44\"\uB97C
@@ -3226,17 +3026,16 @@ MonoBehaviour:
       1\uC7A5 \uC120\uD0DD\uD558\uACE0, \uD328\uC5D0 \uB123\uB294\uB2E4."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000048
+    - card_63300048
   - id: 63000049
     cardName: "\uC6B0\uC544\uD55C \uC624\uD6C4 \uB77C\uD06C\uB9B0\uB290"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC9C0\uAE08\uC740 \uADF8\uB0E5 \uC774\uB807\uAC8C \uD758\uB7EC\uAC00\uB294
@@ -3246,17 +3045,16 @@ MonoBehaviour:
       \uC5B4\uD0DD\uD560 \uC218 \uC5C6\uACE0, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000049
+    - card_63300049
   - id: 63000050
     cardName: "\uBE44\uB294 \uC18C\uB140\uC758 \uB9C8\uC74C\uC744 \uB2EE\uC544 \uB9AC\uC990\uB9AC"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC640\uD590~! \uC624\uB298\uC740 \uD558\uB8E8 \uC885\uC77C\uB0B4\uB9B4\uD150\uB370~!\u300F"
@@ -3265,17 +3063,15 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC740 \u300E\uBD80\uC2A4\uD2B8\u300F\uB97C \uC5BB\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000050
   - id: 63000051
     cardName: "\uC11C\uB4E0\uC0E4\uC6CC \uB8E8\uC5D0\uB77C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC218\uAC74 \uACE0\uB9C8\uC6CC~ \uC774\uC57C, \uBE44\uAC00
@@ -3288,17 +3084,15 @@ MonoBehaviour:
       \uB193\uACE0, \uADF8 \uD134 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000051
   - id: 63000052
     cardName: "\uC2A4\uD50C\uB798\uC2DC\u30FB\uB51C\uB77C\uC774\uD2B8 \uD398\uB974\uC2DC\uC2A4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD280\uB294 \uBB3C\uBCF4\uB77C, \uAC70\uB4ED\uB418\uB294
@@ -3310,17 +3104,15 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+2000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000052
   - id: 63000053
     cardName: "\uD0DC\uC591\uBCF4\uB2E4 \uBE5B\uB098\uAC8C \uBDD4\uB124"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB0B4\uB9AC\uCB10\uB294 \uD587\uC0B4 \uC544\uB798 \uADF8\uB140\uB294
@@ -3334,17 +3126,15 @@ MonoBehaviour:
       \uADF8 \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000053
   - id: 63000054
     cardName: "\uB0A0\uAC1C\uC9D3\uC758 \uBC14\uB78C\uC18C\uB9AC \uD074\uB9AC\uC170"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB4E4\uB72C \uB9C8\uC74C\uC740 \uB450\uB465\uC2E4 \uB5A0\uC624\uB974\uACE0.\u300F"
@@ -3355,17 +3145,15 @@ MonoBehaviour:
       \uADF8 \uC720\uB2DB\uACFC \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000054
   - id: 63000055
     cardName: "\uD734\uB9AC\u30FB\uBAA8\uB2DD \uBB34\uD074"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC81C\uB300\uB85C \uAC00\uB974\uCE58\uBA74 \uC808\uB300 \uD2C0\uB9AC\uC9C0
@@ -3376,17 +3164,15 @@ MonoBehaviour:
       \uADF8 \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+2000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000055
   - id: 63000056
     cardName: "\uC218\uAD6D\uC758 \uAC00\uD76C \uD50C\uB9AC\uC2DC"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uADF8 \uB178\uB7AB\uC18C\uB9AC\uB294 \uB9C8\uC74C\uC758 \uC6C5\uB369\uC774\uB97C
@@ -3396,17 +3182,15 @@ MonoBehaviour:
       \uC788\uB2E4\uBA74, \uC774 \uC720\uB2DB\uC758 \uC2E4\uB4DC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000056
   - id: 63000057
     cardName: "\uB9AC\uD130\uB7F4\uB9AC\u30FB\uC561\uD2B8 \uCE74\uB9BF\uC0AC"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC798\uD558\uACE0 \uC788\uB124. \uB098\uB3C4 \uC9C4\uC2EC
@@ -3420,17 +3204,15 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC744 \uC18C\uC6B8\uC5D0 \uB193\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000057
   - id: 63000058
     cardName: "\uD5E4\uB9AC\uC548\uC11C\uC2A4\uAC78 \uD30C\uC6B0\uB124"
     grade: 3
     power: 11000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBE5B\uC774 \uBE44\uCE58\uB294 \uCABD\uC73C\uB85C \uB204\uAD6C\uBCF4\uB2E4
@@ -3441,17 +3223,15 @@ MonoBehaviour:
       \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000058
   - id: 63000059
     cardName: "\uB9E4\uC9C1\uC544\uC6CC\u30FB\uBC1C\uB77C\uB4DC \uBBFC\uB9C8\uC774"
     grade: 3
     power: 11000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB545\uAC70\uBBF8 \uC9C8 \uB54C \uC5D0\uB9CC \uB4E4\uC744
@@ -3465,7 +3245,7 @@ MonoBehaviour:
       \uB193\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000059
   - id: 63000060
     cardName: "\uC11C\uB85C \uC5F0\uACB0\uD558\uB294 \uCE5C\uAD50\uC758 \uACE0\uB9AC
       \uD398\uD2B8\uB77C\uB974\uCE74"
@@ -3473,10 +3253,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD558\uB098\uD558\uB098\uAC00 \uC18C\uC911\uD55C \uC778\uC5F0\uC774\uB2C8\uAE4C,
@@ -3499,17 +3277,15 @@ MonoBehaviour:
       \uC154\uD50C\uD55C\uB2E4. (\uB77C\uC774\uB4DC\uD574\uB3C4 \uD30C\uC6CC+10000)"
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000060
   - id: 63000061
     cardName: "\uC5D4\uB4E4\uB9C1\u30FB\uBDF0\uD2F0 \uC5D0\uB974\uBBF8\uB2C8\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uCEE8\uC149\uC740 \u300C\uC369\uC9C0 \uC54A\uACE0 \uB418\uC0B4\uC544\uB098\uB2E4\u300D\uC57C.\u300F"
@@ -3533,17 +3309,17 @@ MonoBehaviour:
       \uC804\uBD80\uB97C \u3010\uC2A4\uD0E0\uB4DC\u3011\uC2DC\uD0A8\uB2E4."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000061
+    - card_63200061
+    - card_63300061
   - id: 63000062
     cardName: "\uACE0\uB974\uACE4\u30FB\uC544\uC774\uC988 \uC2DC\uC544\uB098"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD6C4\uD6C4\uD6C4. \uB0B4 \uB9E8\uC5BC\uAD74? \uB77C\uC774\uBE0C\uC5D0
@@ -3565,17 +3341,17 @@ MonoBehaviour:
       \uBC14\uC778\uB4DC\uD55C\uB2E4."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000062
+    - card_63200062
+    - card_63300062
   - id: 63000063
     cardName: "\uCC44\uC694\uB8E1 \uBCFC\uBE0C\uB9AC\uC9C0\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD3EC\uB808\uC2A4\uD2B8 \uB4DC\uB798\uACE4"
-    tribeList:
-    - "\uD3EC\uB808\uC2A4\uD2B8 \uB4DC\uB798\uACE4"
+    countryList: 05000000
+    tribeList: 
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC885\uC871\uB3C4, \uC131\uBCC4\uB3C4, \uB098\uC774\uB3C4
@@ -3599,17 +3375,16 @@ MonoBehaviour:
       \uB54C, 1\uC7A5 \uB4DC\uB85C\uC6B0\uD55C\uB2E4."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000063
+    - card_63300063
   - id: 63000064
     cardName: "\uD1B1 \uC544\uC774\uB3CC \uD37C\uC2DC\uD53C\uCE74"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC804\uC124\uB85C \uC77C\uCEEC\uC5B4\uC9C0\uB294, \uADF8\uB140\uB294
@@ -3627,17 +3402,17 @@ MonoBehaviour:
       \uC11C\uD074\uC5D0 \uCF5C \uD558\uACE0, \uB371\uC744 \uC154\uD50C \uD55C\uB2E4."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000064
+    - card_63200064
+    - card_63300064
   - id: 63000065
     cardName: "Tr!ple\xD7Tr!ck \uD398\uB12C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC7A5\uB09C\uACFC \uACFC\uC790 \uC900\uBE44\uB294 \uC644\uBCBD\uD574!
@@ -3657,17 +3432,17 @@ MonoBehaviour:
       \uC55E\uC5F4 \uC720\uB2DB \uC804\uBD80\uC758 \uD30C\uC6CC+2000."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000065
+    - card_63200065
+    - card_63300065
   - id: 63000066
     cardName: "\uD50C\uB798\uB2DB \uC544\uC774\uB3CC \uD37C\uC2DC\uD53C\uCE74"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC77C\uCC0D\uC774 \uC774 \uD589\uC131\uC740, \uB2E8 \uD55C
@@ -3687,17 +3462,17 @@ MonoBehaviour:
       \uB193\uC600\uB2E4\uBA74, 1\uC7A5 \uB4DC\uB85C\uC6B0 \uD55C\uB2E4."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000066
+    - card_63200066
+    - card_63300066
   - id: 63000067
     cardName: "PR\u2665ISM-P\uD504\uB85C\uBBF8\uC2A4 \uB798\uBE0C\uB77C\uB3CC"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uADF8\uB0A0 \uD588\uB358, \uBC14\uB798\uC9C0 \uC54A\uB294
@@ -3718,17 +3493,17 @@ MonoBehaviour:
       \uD30C\uC6CC+5000\uD558\uACE0, \uC774 \uC720\uB2DB\uC758 \uD06C\uB9AC\uD2F0\uCEEC+1."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000067
+    - card_63200067
+    - card_63300067
   - id: 63000068
     cardName: "\uD480\uBB38 \uB9E4\uC9C1 \uD3EC\uB974\uD2F0\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC624\uB298\uC740 \uB9CC\uC554\uC808\uC774\uB124\u266A\u300F"
@@ -3752,17 +3527,17 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uB4DC\uB77C\uC774\uBE0C-2."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000068
+    - card_63200068
+    - card_63300068
   - id: 63000069
     cardName: "L\xE8Vre\u2661S\u0153urS \uC0E4\uB974\uBAA8\uD2B8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC11C\uD050\uBC84\uC2A4"
-    tribeList:
-    - "\uC11C\uD050\uBC84\uC2A4"
+    countryList: 05000000
+    tribeList: 0e000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC0AC\uB791\uC744 \uC790\uC544\uB0B4\uB294 \uB124 \uAC1C\uC758
@@ -3788,17 +3563,17 @@ MonoBehaviour:
       \uC218 \uC788\uACE0, \uB4DC\uB77C\uC774\uBE0C \uCCB4\uD06C\uB97C \uC2E4\uD589\uD55C\uB2E4."
     availableRarities: 000000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000069
+    - card_63200069
+    - card_63300069
   - id: 63000070
     cardName: "\uC2A4\uD0C0\uB9AC\u30FB\uC704\uCE58\uD06C\uB798\uD504\uD2B8 \uB85C\uC794\uB290"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBC18\uC9DD\uC774\uB294 \uC0AC\uB791\uC758 \uC8FC\uBB38,
@@ -3812,36 +3587,35 @@ MonoBehaviour:
       \uB193\uB294\uB2E4."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000070
+    - card_63300070
   - id: 63000071
-    cardName: "\uACE0\uADC0\uD55C \uAC83\uC740 \uB2E8 \uD558\uB098\uBFD0 \uBBF8\uB77C\uADF8\uB85C\uC2A4"
+    cardName: "\uB370\uCF54\uB808\uC774\uD2B8\u30FB\uC0E4\uC774\uB2C8 \uC5D0\uB974\uC2A4"
     grade: 3
     power: 10000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
-    flavorText: "\u300E\uB354 \uBCF4\uC5EC\uC918, \uB2F9\uC2E0\uB4E4\uC774 \uADF8\uB9AC\uB294
-      \uADA4\uC801\uC744.\u300F"
-    effectText: "\u3010\uC790\uB3D9\u3011 :\uC774 \uC720\uB2DB\uC774 \uB9AC\uC5B4\uAC00\uB4DC
-      \uC11C\uD074\uC5D0 \uB4F1\uC7A5\uD588\uC744 \uB54C, \u300C\uBBF8\uCE04\u300D\uB97C
-      \uD3EC\uD568\uD55C \uC790\uC2E0\uC758 \uBC45\uAC00\uB4DC\uAC00 \uC788\uB2E4\uBA74,
-      \u3010\uCF54\uC2A4\uD2B8\u3011[\uD328\uB97C 1\uC7A5 \uC18C\uC6B8\uC5D0 \uB193\uC74C]\uC73C\uB85C,
-      \uC790\uC2E0\uC758 \uB4DC\uB86D\uC5D0\uC11C \uD3EC\uD0C4 \uCE74\uB4DC\uB97C
-      1\uC7A5 \uC120\uD0DD\uD558\uC5EC, \uD328\uC5D0 \uCD94\uAC00\uD558\uACE0, \uC790\uC2E0\uC758
-      \uB4B7\uBA74\uC778 \uB370\uBBF8\uC9C0\uC874\uC774 3\uC7A5 \uC774\uC0C1\uC774\uACE0,
-      \uC774 \uD134\uC5D0 \uC790\uC2E0\uC774 \u3010\uCE74\uC6B4\uD130 \uCC28\uC9C0\u3011\uD558\uC9C0
-      \uC54A\uC558\uB2E4\uBA74, \u3010\uCE74\uC6B4\uD130 \uCC28\uC9C0\u3011(1).\r\n\u3010\uC601\uC18D\u3011\u3010\uB9AC\uC5B4\uAC00\uB4DC
-      \uC11C\uD074\u3011 : \uC774 \uD134\uC5D0 \uC790\uC2E0\uC758 \uD3EC\uD0C4 \uCE74\uB4DC\uAC00
-      \uC624\uB354\uC874\uC5D0\uC11C \uB4DC\uB86D\uC5D0 \uB193\uC600\uB2E4\uBA74,
-      \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
+    flavorText: "\u300E\uB9E1\uACA8\uC918~ \uC9C0\uAE08 \uB531 \uB9DE\uAC8C \uAFB8\uBA70\uC904\uAC8C~\u300F"
+    effectText: "\u3010\uC790\uB3D9\u3011 :\uC774 \uC720\uB2DB\uC774 \uD328\uC5D0\uC11C
+      \uB9AC\uC5B4\uAC00\uB4DC \uC11C\uD074\uC5D0 \uB4F1\uC7A5\uD588\uC744 \uB54C,
+      \u300C\uB9B4\uD30C\u300D\uB97C \uD3EC\uD568\uD55C \uC790\uC2E0\uC758 \uBC45\uAC00\uB4DC\uAC00
+      \uC788\uB2E4\uBA74, \uC790\uC2E0\uC758 \uD328\uC5D0\uC11C \uC774 \uC720\uB2DB\uACFC
+      \uB2E4\uB978 \uC774\uB984\uC778 \uADF8\uB808\uC774\uB4DC 2 \uC774\uC0C1\uC758
+      \uC720\uB2DB \uCE74\uB4DC\uB97C 1\uC7A5\uAE4C\uC9C0 \uC120\uD0DD\uD558\uC5EC,
+      \uB4B7\uC5F4\uC758 \uB9AC\uC5B4\uAC00\uB4DC \uC11C\uD074\uC5D0 \uCF5C\uD558\uACE0,
+      \uADF8 \uD134 \uC911, \u300E\uBD80\uC2A4\uD2B8\u300F\uB97C \uBD80\uC5EC\uD55C\uB2E4.
+      \uCF5C\uD588\uB2E4\uBA74, \uC774\uD558 1\uAC1C\uB97C \uC2E4\uD589\uD55C\uB2E4.\r\n\xB7
+      \uC790\uC2E0\uC758 \uBA54\uC778\uD398\uC774\uC988\uB77C\uBA74, 1\uC7A5 \uB4DC\uB85C\uC6B0\uD55C\uB2E4.\r\n\xB7
+      \uC790\uC2E0\uC758 \uBC30\uD2C0\uD398\uC774\uC988\uB77C\uBA74, \uADF8 \uD134
+      \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000071
+    - card_63300071
   - id: 63000072
     cardName: "\uAF2C\uB9AC\uAC00 \uC2A4\uCE58\uBA74 \uB2E4\uC0DD\uC758 \uC778\uC5F0
       \uB178\uBCA8\uB77C"
@@ -3849,10 +3623,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB108\uC640 \uD568\uAED8 \uB458\uB3C4 \uC5C6\uB294 \uD558\uB8E8\uD558\uB8E8\uB97C.\u300F"
@@ -3867,17 +3639,16 @@ MonoBehaviour:
       \uD328\uC5D0 \uCD94\uAC00\uD55C\uB2E4."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000072
+    - card_63300072
   - id: 63000073
     cardName: "\uAFC8\uC5D0\uC11C\uAE4C\uC9C0 \uBCF8 \uB300\uB7C9\uAD6C\uB9E4 \uB77C\uBAA8\uB098"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uAC00\uB4DD \uAD6C\uC785\uD55C \uC774 \uC544\uC774\uB4E4\u2026\u2661
@@ -3891,17 +3662,16 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uD30C\uC6CC+5000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000073
+    - card_63300073
   - id: 63000074
     cardName: "\uC774\uACF3\uC740 \uB9C8\uCE58 \uC720\uD1A0\uD53C\uC544 \uB178\uB974\uCCB4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC18C\uBB38\uC5D0 \uC758\uD558\uBA74, \uBA4B\uC9C4 \uAC78
@@ -3916,17 +3686,15 @@ MonoBehaviour:
       \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000074
   - id: 63000075
     cardName: "Absolute Zero \uC0AC\uC9C0\uD0C0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC544\uB984\uB2E4\uC6B4 \uB77C\uC774\uBE0C\uB85C \uB9E4\uD639\uC2DC\uD0A4\uB294,
@@ -3948,17 +3716,18 @@ MonoBehaviour:
       \uB4DC\uB85C\uC6B0\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000075
+    - card_63100075
+    - card_63200075
+    - card_63300075
   - id: 63000076
     cardName: "\uC624\uB85C\uB77C\uC2A4\uD0C0 \uCF54\uB784"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD758\uB7EC\uB118\uCE58\uB294 \uC2A4\uD0C0\uC758 \uC624\uB77C\uAC00
@@ -3977,17 +3746,17 @@ MonoBehaviour:
       \uD134 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC + 15000."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000076
+    - card_63100076
+    - card_63200076
   - id: 63000077
     cardName: "\uCEE8\uC2A4\uD2F0\uB808\uC774\uD2B8\u30FB\uC194\uB7EC\uC2A4 \uBA54\uB514\uC5D8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBAA8\uB450\uC758 \uBCC4\uC744 \uC774\uC5B4, \uD589\uBCF5\uC758
@@ -4008,17 +3777,18 @@ MonoBehaviour:
       \uC774 \uD6A8\uACFC\uB85C \uCF5C\uB41C \uC720\uB2DB\uC758 \uD06C\uB9AC\uD2F0\uCEEC+1."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000077
+    - card_63100077
+    - card_63200077
+    - card_63300077
   - id: 63000078
     cardName: "\uBC18\uC9DD\uBC18\uC9DD\uD55C \uBB34\uB4DC \uBBF8\uCE04"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBC30\uD2C0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uBC30\uD2C0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0d000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC870\uC6A9\uD788, \uC870\uC6A9\uD788, \uC0B4\uBA70\uC2DC,
@@ -4048,17 +3818,18 @@ MonoBehaviour:
       \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000078
+    - card_63100078
+    - card_63200078
+    - card_63300078
   - id: 63000079
     cardName: "PhosphorescenceStream \uD558\uC81C\uB9AC\uD2B8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC790, \uC6B0\uB9AC\uB4E4\uC758 \uB9C8\uC74C\uC744 \uC804\uD558\uB7EC
@@ -4084,17 +3855,18 @@ MonoBehaviour:
       \uC5B4\uD0DD\uD560 \uC218 \uC788\uACE0, \uD30C\uC6CC+5000."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000079
+    - card_63100079
+    - card_63200079
+    - card_63300079
   - id: 63000080
     cardName: "\uD504\uB77C\uB9AD\u30FB\uD638\uD37C \uD30C\uB098\uD2B8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB0A0\uC544\uB77C! \uC62C\uB77C\uB77C! \uB2E4 \uAC19\uC774
@@ -4112,17 +3884,17 @@ MonoBehaviour:
       \uB418\uB3CC\uB9B0\uB2E4."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000080
+    - card_63100080
+    - card_63300080
   - id: 63000081
     cardName: "\uBE0C\uB77C\uC774\uD2F0\uC2A4\uD2B8\u30FB\uB4DC\uB9AC\uBA38 \uB9B4\uD30C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC790\uC774\uC5B8\uD2B8"
-    tribeList:
-    - "\uC790\uC774\uC5B8\uD2B8"
+    countryList: 05000000
+    tribeList: 06000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC660\uC9C0, \uD558\uB298\uC774 \uAC00\uAE4C\uC6CC\uC9C4
@@ -4146,17 +3918,18 @@ MonoBehaviour:
       \uC11C\uD074\uC5D0 \uCF5C\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000081
+    - card_63100081
+    - card_63200081
+    - card_63300081
   - id: 63000082
     cardName: "PR\u2665ISM-I \uBCA0\uB974"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uAC00\uD76C\uB294 \uB208\uBD80\uC2DC\uAC8C \uBE5B\uB098,
@@ -4182,17 +3955,18 @@ MonoBehaviour:
       \uC120\uD0DD\uD558\uACE0, \uB9AC\uC5B4\uAC00\uB4DC \uC11C\uD074\uC5D0 \uCF5C\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000082
+    - card_63100082
+    - card_63200082
+    - card_63300082
   - id: 63000083
     cardName: "#Make_A_Wish!! \uCFC4\uC6B0\uCE74"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5EC\uAE30, \uC644\uC804\uAC10\uB3D9\uC774\uC57C! \uC788\uC9C0,
@@ -4217,17 +3991,18 @@ MonoBehaviour:
       \uCD94\uAC00\uD558\uACE0, \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000083
+    - card_63100083
+    - card_63200083
+    - card_63300083
   - id: 63000084
     cardName: "\uB9AC\uBE0C\u30FB\uC5D0\uD22C\uC54C \uB8E8\uD14C\uC2DC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5EC\uC2E0\uB2D8\u2026\u2026\uAC19\uB2E4\uACE0\uC694?\r\n\uC5D0\uD5E4\uD5E4...
@@ -4258,17 +4033,18 @@ MonoBehaviour:
       \uD6A8\uACFC\uB85C \uAC10\uC18C\uD558\uC9C0 \uC54A\uB294\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000084
+    - card_63100084
+    - card_63200084
+    - card_63300084
   - id: 63000085
     cardName: "\uB8E8\uBBF8\uB108\uC2A4\uBA5C\uB85C\uB514 \uC77C\uB124\uC774\uC2DC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uAC00\uC2B4 \uAE4A\uC774 \uC6B8\uB9AC\uB294 \uC74C\uC0C9\uC774,
@@ -4288,17 +4064,17 @@ MonoBehaviour:
       \uD328\uC5D0 \uB418\uB3CC\uB9B0\uB2E4."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000085
+    - card_63100085
+    - card_63300085
   - id: 63000086
     cardName: "\uD480\u30FB\uC624\uBE0C\u30FB\uD37C\uB2C8 \uD504\uB810\uB77C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB0B4\uC77C \uAC71\uC815\uD558\uC9C0 \uB9D0\uACE0, \uC9C0\uAE08\uC744
@@ -4312,17 +4088,16 @@ MonoBehaviour:
       \uC911, \uC774 \uC720\uB2DB\uC758 \uD06C\uB9AC\uD2F0\uCEEC+1."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000086
+    - card_63300086
   - id: 63000087
     cardName: "\uBCC4\uC774 \uB9CC\uB098\uB294 \uBC24\uC5D0 \uBE44\uC544\uD2F0\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC608\uC058\uB2E4\u2026 \uD558\uB298 \uAC00\uB4DD \uC6B0\uB9AC\uC758
@@ -4336,17 +4111,16 @@ MonoBehaviour:
       \uADF8 \uBC30\uD2C0 \uC911, \uD30C\uC6CC+10000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000087
+    - card_63300087
   - id: 63000088
     cardName: "\uBCC4\uD558\uB298\uC744 \uBE60\uC838\uB098\uC640 \uC774\uB8F8\uD790\uB370"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uB2C8, \uC774\uCABD\uC774\uC5D0\uC694\u266A\u300F"
@@ -4359,17 +4133,16 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC744 \uC18C\uC6B8\uC5D0 \uB193\uB294\uB2E4."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000088
+    - card_63300088
   - id: 63000089
     cardName: "\uB9F9\uAD11 \uC544\uC2A4\uD14C\uB9AC\uC998 \uC81C\uBC00"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC598\uB124\uB4E4 \uB108\uC758 \uB9C8\uBC95\uACFC \uD569\uCE58\uBA74\r\n\uAD49~\uC7A5\uD55C
@@ -4383,17 +4156,16 @@ MonoBehaviour:
       \uC804\uBD80\uC758 \uD30C\uC6CC+5000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000089
+    - card_63300089
   - id: 63000090
     cardName: "\uD30C\uC2DC\uB124\uC774\uD2B8\u30FB\uD14C\uC77C \uCF54\uB370\uD2B8"
     grade: 3
     power: 10000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC544\uC9C1 \uBA40\uC5C8\uC5B4! \uB354 \uC5C4\uCCAD\uB098\uB2E4\uB2C8\uAE4C!\u300F"
@@ -4403,17 +4175,16 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uD30C\uC6CC+5000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000090
+    - card_63300090
   - id: 63000091
     cardName: "\uC5D4\uD074\uB85C\uC988\uC2A4\uD0C0 \uB9AC\uC288\uB77C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB0B4\uAC00 \uC788\uC73C\uB2C8\uAE4C \uAC71\uC815\uB9C8!
@@ -4425,17 +4196,15 @@ MonoBehaviour:
       \uB4DC\uB85C\uC6B0\uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000091
   - id: 63000092
     cardName: "\uC644\uBCBD\uD55C \uD615\uD0DC \uD30C\uB974\uD53C\uB178\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5D0\uD5E4\uD5E4. \uC774\uBBF8\uC9C0\uB300\uB85C \uB41C\uAC70\uC5D0\uC694.\u300F"
@@ -4448,17 +4217,15 @@ MonoBehaviour:
       \uC11C\uD074\uC5D0 \uCF5C\uD558\uACE0, \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000092
   - id: 63000093
     cardName: "\uC644\uC804 \uD3ED\uC2E0 \uC800\uC9C0\u30FB\uBA54\uC774\uB4E0 \uB9C8\uB9AC\uC5D0\uB9AC\uC2A4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC751\uC751, \uC624\uB298\uB3C4 \uBAA8\uB450 \uB9D1\uACE0
@@ -4472,17 +4239,15 @@ MonoBehaviour:
       1\uC7A5 \uC120\uD0DD\uD558\uACE0, \uD1F4\uAC01\uC2DC\uD0A8\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000093
   - id: 63000094
     cardName: "\uD30C\uB3C4\uAC00 \uC77C\uB801\uC774\uB294 \uAFC8\uACB0 \uB808\uBCB3\uD2B8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B4\uB54C? \uC5EC\uAE30\uC11C \uBCF4\uB294 \uC804\uB9DD.
@@ -4499,17 +4264,17 @@ MonoBehaviour:
       \uBD80\uC5EC\uD55C\uB2E4."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000094
+    - card_63100094
+    - card_63300094
   - id: 63000095
     cardName: "\uC2A4\uD0DC\uB9AC\u30FB\uC2A4\uCE74\uC774 \uB8E8\uCCB4\uD0C0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB0B4 \uC18C\uC6D0\uC740 \uD558\uB098\uB9CC. \uD558\uB298\uC5D0
@@ -4521,17 +4286,15 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000095
   - id: 63000096
     cardName: "\uC5B4\uB514\uAE4C\uC9C0\uB77C\uB3C4 \uB0A0\uC544\uAC00 \uD30C\uC2A4\uD2F0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBCF4\uC774\uC9C0 \uC54A\uC744 \uB54C\uAE4C\uC9C0 \uB0A0\uC544!
@@ -4551,17 +4314,15 @@ MonoBehaviour:
       \uD328\uC5D0 \uB418\uB3CC\uB9B0\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000096
   - id: 63000097
     cardName: "\uD574\uBCC0\uC758 \uC18C\uC6D0\uBCC4 \uB9AC\uD504\uB8E8\uB8E8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBAA8\uB450\uAC00 \uBCFC \uC218 \uC788\uB294, \uAC00\uC7A5
@@ -4573,17 +4334,15 @@ MonoBehaviour:
       \uD328\uC5D0 \uB418\uB3CC\uB9B0\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000097
   - id: 63000098
     cardName: "\uB9CC\uC810\uC758 \uBCC4\uC744 \uD488\uACE0 \uD2F0\uCF00\uC774\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC74C\uD6C4\uD6C4~\u266A \uC5ED\uC2DC \uB0B4 \uBCC4\uC774
@@ -4596,17 +4355,15 @@ MonoBehaviour:
       \uB371\uC5D0\uC11C \uCC3E\uC558\uB2E4\uBA74, \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000098
   - id: 63000099
     cardName: "Cadeau \u2661e Amour \uC0E4\uB974\uBAA8\uD2B8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC11C\uD050\uBC84\uC2A4"
-    tribeList:
-    - "\uC11C\uD050\uBC84\uC2A4"
+    countryList: 05000000
+    tribeList: 0e000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC74C. \uC774\uAC70, \uB108\uD55C\uD14C \uC904\uAC8C. \uC18C\uC911\uD788\u2026\u2026
@@ -4637,17 +4394,18 @@ MonoBehaviour:
       \uB4DC\uB77C\uC774\uBE0C+1."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000099
+    - card_63100099
+    - card_63200099
+    - card_63300099
   - id: 63000100
     cardName: "\uC778\uD615\uD0C8 \uC544\uC774\uB3CC \uC544\uB974\uD06C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uADF8\uB798, \uADF8\uB140\uB294, \uCC9C \uAC00\uC9C0 \uD0C8\uC778\uD615
@@ -4677,17 +4435,18 @@ MonoBehaviour:
       \uD328\uC5D0 \uCD94\uAC00\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000100
+    - card_63100100
+    - card_63200100
+    - card_63300100
   - id: 63000101
     cardName: "\uACE0\uB974\uACE4\u30FB\uAE30\uD504\uD2B8 \uC2DC\uC544\uB098"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC640~! \uC774\uB807\uAC8C \uADC0\uC5EC\uC6B4 \uAC78 \uBC1B\uC744
@@ -4710,17 +4469,18 @@ MonoBehaviour:
       \uC120\uD0DD\uD558\uACE0, \u3010\uB808\uC2A4\uD2B8\u3011\uB85C \uB77C\uC774\uB4DC\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000101
+    - card_63100101
+    - card_63200101
+    - card_63300101
   - id: 63000102
     cardName: "SweetLinker \uD50C\uB798\uD2F0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC794\uB729 \uC788\uC73C\uB2C8\uAE4C... \uD558\uB098 \uC815\uB3C4\uB294...
@@ -4746,17 +4506,18 @@ MonoBehaviour:
       \uB371\uC744 \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000102
+    - card_63100102
+    - card_63200102
+    - card_63300102
   - id: 63000103
     cardName: "Sa!nt\xD7N!ght\xD7Tr!ck \uD398\uB12C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC624\uB298 \uBC24 \uB77C\uC774\uBE0C, \uAE30\uB300\uD558\uACE0
@@ -4780,17 +4541,18 @@ MonoBehaviour:
       1\uC7A5 \uC120\uD0DD\uD558\uACE0, \u3010\uC2A4\uD0E0\uB4DC\u3011\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000103
+    - card_63100103
+    - card_63200103
+    - card_63300103
   - id: 63000104
     cardName: "RaiZ:BlaZ \uD3F4\uB9AC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC6B0\uB9AC\uAC00 \uC774\uACF3\uC5D0 \uC628 \uC758\uBBF8\u2014\u2014
@@ -4819,17 +4581,18 @@ MonoBehaviour:
       \uC120\uD0DD\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000104
+    - card_63100104
+    - card_63200104
+    - card_63300104
   - id: 63000105
     cardName: "\uD06C\uB798\uD504\uD2B8\uB9AC\uC2A4 \uD074\uB85C\uB85C\uB290"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC9DC\uC794! \uD2C0\uB9BC\uC5C6\uC774 \uC5ED\uB300 \uCD5C\uACE0\uB85C
@@ -4850,17 +4613,17 @@ MonoBehaviour:
       \u3010\uC18C\uC6B8 \uCC28\uC9C0\u3011(1)."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000105
+    - card_63100105
+    - card_63300105
   - id: 63000106
     cardName: "\uBE0C\uB77C\uC774\uD2B8\u30FB\uC2A4\uCF00\uC77C \uB9AC\uB9AC\uC624\uC790"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B4~\uC774, \uD3F4\uB9AC\uC544~! \uC5EC\uAE30\uC5EC\uAE30!\u300F"
@@ -4875,17 +4638,17 @@ MonoBehaviour:
       \uD3EC\uD568\uD588\uB2E4\uBA74, \uC774 \uC720\uB2DB\uC758 \uC2E4\uB4DC+5000."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000106
+    - card_63100106
+    - card_63300106
   - id: 63000107
     cardName: "\uC624\uBC84\uB098\uC774\uD2B8\u30FB\uCEE8\uD398\uD2F0 \uB3C4\uB9AC\uC2A4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uACE0\uC2A4\uD2B8"
-    tribeList:
-    - "\uACE0\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 02000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uB2C8\uC5D0 \uAD00\uD55C \uC77C\uC774\uB77C\uBA74,
@@ -4902,17 +4665,16 @@ MonoBehaviour:
       \uC885\uB8CC\uC2DC, \uC774 \uC720\uB2DB\uC744 \uB371 \uC544\uB798\uC5D0 \uB193\uB294\uB2E4."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000107
+    - card_63300107
   - id: 63000108
     cardName: "\uBAA8\uB2E5\uBD88\uC774 \uAEBC\uC9C0\uC9C0 \uC54A\uB3C4\uB85D \uD30C\uB85C\uB9AC"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC774\uB9CC\uD07C \uC900\uBE44\uD588\uC73C\uBA74, \uC544\uB9C8
@@ -4925,17 +4687,16 @@ MonoBehaviour:
       3 \uC774\uC0C1\uC774\uB77C\uBA74, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+2000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000108
+    - card_63300108
   - id: 63000109
     cardName: "\uCC9C\uD654\uC758 \uAC00\uD76C \uB124\uC96C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC794\uC794\uD55C \uBC14\uB2E4, \uACE0\uC694\uD55C \uBC24.
@@ -4949,17 +4710,16 @@ MonoBehaviour:
       \uD30C\uC6CC+5000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000109
+    - card_63300109
   - id: 63000110
     cardName: "\uCFE8\uC2A4\uCEEC\uD504\uCC98 \uC6B8\uBE0C\uB9AC\uCE74"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uADF8 \uC790\uB9AC\uB294 \uB0B4 \uC791\uD488\uC744 \uB193\uC744
@@ -4972,17 +4732,15 @@ MonoBehaviour:
       \uC11C\uD074\uC5D0 \uC774\uB3D9\uC2DC\uD0A8\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000110
   - id: 63000111
     cardName: "\uD2B8\uB808\uB514\uC5B8\uD2B8\u30FB\uCE58\uC5BC\uC2A4! \uC2DC\uB974\uD2F0\uB290"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC624\uB298 \uBC24 \uC815\uB3C4\uB294, \uD3C9\uC18C \uC77C
@@ -4995,17 +4753,15 @@ MonoBehaviour:
       \uD06C\uB9AC\uD2F0\uCEEC\uC744 2\uB85C \uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000111
   - id: 63000112
     cardName: "\uBA54\uC778\u30FB\uB514\uC2DC \uD3F4\uB77C\uB2C8\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uAE84\uC544~! \uBC14\uB85C \uC774\uAC70! \uC774\uAC78 \uAE30\uB2E4\uB9AC\uACE0
@@ -5017,17 +4773,15 @@ MonoBehaviour:
       \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000112
   - id: 63000113
     cardName: "\uB9CC\uD654\uC758 \uC6B4\uBA85\uC790 \uD06C\uB9AC\uC2A4\uB808\uC778"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB9CC\uD654\uC640 \uBE5B\uB0A0 \uC218 \uC788\uB294 \uB0B4\uC77C\uC744
@@ -5058,17 +4812,18 @@ MonoBehaviour:
       \uC0AC\uC6A9\uD560 \uC218 \uC788\uB2E4.)"
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000113
+    - card_63100113
+    - card_63200113
+    - card_63300113
   - id: 63000114
     cardName: "\uBC18\uC751\uC774 \uC88B\uC544 \uC0AC\uB791\uBC1B\uB294 \uAC78 \uB808\uC2A4\uD53C\uB178"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBFCC. \uC9C4\uC9DC\uC778\uC904 \uC54C\uC558\uC796\uC544.\u300F"
@@ -5087,17 +4842,17 @@ MonoBehaviour:
       +15000."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000114
+    - card_63100114
+    - card_63300114
   - id: 63000115
     cardName: "\uBE44\uBE44\uB4DC \uD50C\uB798\uC2DC \uC704\uC988\uBA54\uC774"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uAC74\uAC15\uD558\uAC8C, \uB418\uACE0 \uC2F6\uC740 \uB0B4\uAC00
@@ -5110,17 +4865,16 @@ MonoBehaviour:
       \uAC83\uC73C\uB85C, \uADF8 \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+15000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000115
+    - card_63300115
   - id: 63000116
     cardName: "FL\u2200MMe-G \uB85C\uC9C0\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC9C0\uC625\uC758 \uD5C8\uD48D\uC5D0 \uB9E4\uB8CC\uB418\uC5B4
@@ -5149,17 +4903,17 @@ MonoBehaviour:
       \uB77C\uC774\uB4DC\uD55C\uB2E4."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000116
+    - card_63100116
+    - card_63300116
   - id: 63000117
     cardName: "\uCCAD\uB824\uAE08\uB8E8 \uC5D8\uC2A4\uBCB3"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB2F9\uC2E0\uC774 \uBD10\uC900 \uBE0C\uB7EC\uC2DC, \uB108\uBB34
@@ -5173,17 +4927,15 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000117
   - id: 63000118
     cardName: "\uC9C0\uACE0\uC758 \uC219\uBA85\uC790 \uB9AC\uC2DC\uC544\uD3A0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC9C0\uACE0\uC758 \uBB34\uB300. \uAC70\uAE30 \uC11C \uC788\uB294
@@ -5204,19 +4956,20 @@ MonoBehaviour:
       \uC774 \uD30C\uC774\uD2B8 \uC911, \uC790\uC2E0\uC740 \u300E\u300C\uB9AC\uC2DC\uC544\uD3A0\u300D\uC744
       \uD3EC\uD568\uD55C \uC790\uC2E0 \uBC45\uAC00\uB4DC \uC804\uBD80\uC758 \uD30C\uC6CC+5000/\uD06C\uB9AC\uD2F0\uCEEC+1.
       (\uC0C1\uB300 \uD134\uC5D0\uB3C4 \uC720\uD6A8)\u300F\uB97C \uC5BB\uB294\uB2E4."
-    availableRarities: 00000000010000000200000003000000
+    availableRarities: 0000000001000000020000000300000004000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000118
+    - card_63100118
+    - card_63200118
+    - card_63300118
   - id: 63000119
     cardName: "\uCC60\uBBF8\u30FB\uD504\uB808\uC820\uD2B8 \uC559\uD53C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B4\uB54C? \uC5EC\uAE30\uC11C \uC7A0\uAE50 \uD734\uC2DD\uC774\uB77C\uB3C4.\u300F"
@@ -5234,17 +4987,16 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uD30C\uC6CC+5000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000119
+    - card_63300119
   - id: 63000120
     cardName: "\uC561\uC2DC\uB358\uD2B8 \uC2A4\uCF5C\u30FB\uC548\uB098\uC2DC\uC544"
     grade: 3
     power: 15000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC624\uB298\uC740 \uBE44 \uC548\uC628\uB2E4\uB354\uB2C8\u2026\u2026.\u300F"
@@ -5258,17 +5010,15 @@ MonoBehaviour:
       \uC720\uB2DB\uC758 \uD30C\uC6CC+2000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000120
   - id: 63000121
     cardName: "\uC544\uBBF8\uCE7C\u30FB\uD30C\uD2F0\uC2DC\uC5D0\uB974 \uB9C8\uD0A4\uC54C"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB2EC\uCF64\uD574\uC11C~ \uB9C8\uC2DC\uC368\uC5B4~\u266A\u300F"
@@ -5289,17 +5039,17 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000121
+    - card_63100121
+    - card_63300121
   - id: 63000122
     cardName: "\uCEE8\uD53C\uB358\uD2B8\u30FB\uB514\uB809\uD130 \uC138\uD504\uB9AC\uB098"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD6C4\uD6C4\uD6C4, \uC774\uBC88 \uC5F0\uCD9C\uC740 \uC644\uBCBD\uD574\uC694.
@@ -5316,17 +5066,15 @@ MonoBehaviour:
       \uC790\uC2E0 \uC55E\uC5F4 \uC720\uB2DB \uC804\uBD80\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000122
   - id: 63000123
-    cardName: "        PolyPhonicOverDrive \uC54C\uD2F0\uC0B4\uB9AC\uC544"
+    cardName: "PolyPhonicOverDrive \uC54C\uD2F0\uC0B4\uB9AC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC0AC\uC774\uBC84\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uC0AC\uC774\uBC84\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0c000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC544\uB4DD\uD55C \uC9C4\uACF5\uC758 \uB05D\uC5D0\uC11C,
@@ -5348,19 +5096,21 @@ MonoBehaviour:
       \uB2F9\uC2E0 \uC624\uB354 \uC874\uC758 \uC545\uC7A5 2\uC7A5\uB2F9, \uADF8 \uD134
       \uC911, \uB2F9\uC2E0 \uC55E\uC5F4\uC758 \uC720\uB2DB \uC804\uBD80\uC758 \uD30C\uC6CC
       +5000."
-    availableRarities: 00000000020000000300000004000000
+    availableRarities: 0000000001000000020000000300000004000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000123
+    - card_63100123
+    - card_63200123
+    - card_63300123
+    - card_63400123
   - id: 63000124
     cardName: "\uCCAD\uC18C\uC758 \uBB34\uB300 \uBBF8\uB2E4\uB974\uD558"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uCCAD\uC18C \uC2DC\uAC04 \uC911\uC5D0\uB3C4, \uBB34\uB300
@@ -5372,17 +5122,15 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC744 \uC18C\uC6B8\uC5D0 \uB193\uB294\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000124
   - id: 63000125
     cardName: "\uC2F1\u30FB\uD22C\u30FB\uB354\u30FB\uC2A4\uCE74\uC774 \uB77C\uD06C\uB85C\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC7AC\uBC0C\uC73C\uB2C8\uAE4C \uB178\uB798\uD558\uB294 \uAC70\uC57C!
@@ -5400,17 +5148,15 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000125
   - id: 63000126
     cardName: "\uD669\uD63C\uACFC \uC808\uD654 \uD0AC\uB9AC\uC988"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5B8\uC820\uAC00 \uB204\uAD6C\uC5D0\uAC8C \uC120\uD0DD\uB41C\uB2E4.
@@ -5423,17 +5169,15 @@ MonoBehaviour:
       5\uC7A5 \uC774\uC0C1\uC774\uB77C\uBA74, +5000 \uD558\uC9C0 \uC54A\uACE0 +10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000126
   - id: 63000127
     cardName: "Astesice\u25B3Live \uCE74\uC774\uB9AC"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uCD5C\uACE0\uC758 \uBB34\uB300\uC5D0\uC11C\u2015\u2015\uC18C\uB140\uB4E4\uC740
@@ -5457,17 +5201,18 @@ MonoBehaviour:
       \uC54A\uACE0 2\uC7A5\uAE4C\uC9C0 \uC120\uD0DD\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000127
+    - card_63100127
+    - card_63200127
+    - card_63300127
   - id: 63000128
     cardName: "\uC2A4\uD504\uB77C\uC774\uD2C0\uB9AC\u30FB\uC810\uD37C \uC544\uD504\uD2F8"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC790, \uD55C \uBC1C\uC9DD\uB9CC \uB354! \uC55E\uC73C\uB85C
@@ -5479,17 +5224,15 @@ MonoBehaviour:
       1\uC7A5 \uC120\uD0DD\uD558\uC5EC, \uAC00\uB514\uC5B8 \uC11C\uD074\uC5D0 \uC774\uB3D9\uC2DC\uD0A8\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000128
   - id: 63000129
     cardName: "Juicy-Fruity \uCE04\uC5B4\u30FB\uB9AC\uB098"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBC14\uC774\uC624\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uBC14\uC774\uC624\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0b000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB2E4 \uD568\uAED8 \uB178\uB798 \uBD80\uB97C \uC2DC\uAC04\uC774\uC57C~.
@@ -5517,17 +5260,18 @@ MonoBehaviour:
       1\uC7A5 \uB4DC\uB85C\uC6B0\uD55C\uB2E4.\u300F\uB97C \uBD80\uC5EC\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000129
+    - card_63100129
+    - card_63200129
+    - card_63300129
   - id: 63000130
     cardName: "\uC11C\uB85C \uC6B8\uB824\uD37C\uC9C0\uB294 \uAC10\uC815 \uD2F0\uB808\uC774"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB9C8\uC74C\uC5D0 \uB4DC\uB294 \uC18C\uB9AC\uC57C. \uB108\uC5D0\uAC8C\uB3C4
@@ -5538,17 +5282,15 @@ MonoBehaviour:
       (\uC0C1\uB300 \uD134\uC5D0\uB3C4 \uC720\uD6A8)"
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000130
   - id: 63000131
     cardName: "\uB9CC\uD654\uC758 \uC6B4\uBA85\uC790 \uD06C\uB9AC\uC2A4\uB808\uC778\u30FB\uCE74\uB374\uCC28"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB9CC\uD654\uB85C \uBC18\uC9DD\uC774\uB294 \uBB34\uB300\uB97C,
@@ -5581,17 +5323,18 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uACFC \uAC19\uC544\uC9C8\uB54C\uAE4C\uC9C0 \uC99D\uAC10\uC2DC\uD0A8\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000131
+    - card_63100131
+    - card_63200131
+    - card_63300131
   - id: 63000132
     cardName: "\uD55C\uACB0\uAC19\uC774 \uC5F0\uC8FC\uD558\uB294 \uD2F0\uBCA0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC624\uB514\uC158\uC5D0 \uB9DE\uCDB0, \uACC4\uD68D\uC801\uC73C\uB85C
@@ -5603,17 +5346,15 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000132
   - id: 63000133
     cardName: "\uC194\uB9AC\uD130\uB9AC\u30FB\uC6D4\uB4DC \uC5D0\uC870\uB9AC\uB098"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uAC00\uC7A5 \uC88B\uC544\uD558\uB294 \uC74C\uC545\uC774,
@@ -5626,17 +5367,16 @@ MonoBehaviour:
       \uD1F4\uAC01\uC2DC\uD0A8\uB2E4."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000133
+    - card_63300133
   - id: 63000134
     cardName: "Elegant-repose \uB098\uC0AC\uD2F0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC644\uC131\uB41C \uD68C\uD654\uC5D0 \uBE44\uCE58\uB294,
@@ -5647,17 +5387,15 @@ MonoBehaviour:
       \uC120\uD0DD\uB418\uC9C0 \uC54A\uB294\uB2E4.\r\n"
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000134
   - id: 63000135
     cardName: "\uB204\uAD6C\uC5D0\uAC8C\uB3C4 \uC9C0\uC9C0 \uC54A\uC544! \uC54C\uD30C\uC790"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC"
-    tribeList:
-    - "\uB370\uBAAC"
+    countryList: 05000000
+    tribeList: 04000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB098\uB294 \uC815\uC810\uC5D0 \uC124 \uADF8\uB987\uC774\uB77C\uACE0!\u300F"
@@ -5669,18 +5407,15 @@ MonoBehaviour:
       \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000135
   - id: 63000136
     cardName: "LettiaMateS \uB9E4\uADF8\uB180\uB9AC\uC544 \"\uD658\uC601\""
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8/\uD658\uC601"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
-    - "\uD658\uC601"
+    countryList: 05000000
+    tribeList: 0500000009000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB3D9\uACBD\uD558\uB358 \uC7A5\uC18C. \uADF8 \uC55E\uC5D0
@@ -5710,17 +5445,18 @@ MonoBehaviour:
       1\uAC1C\uAC00 \uC544\uB2CC 2\uAC1C \uC5BB\uB294\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000136
+    - card_63100136
+    - card_63200136
+    - card_63300136
   - id: 63000137
     cardName: "\uD558\uD2F0\uC2A4\uD31F \uC2A4\uD1A0\uB9AC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uCDA5\uACE0 \uB108\uBB34 \uCD94\uC6CC\uC11C, \uC774\uC81C
@@ -5733,18 +5469,15 @@ MonoBehaviour:
       \uAC83\uC73C\uB85C, \uADF8 \uBC30\uD2C0 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000137
   - id: 63000138
     cardName: "X-CeeDaNCe \uC778\uBC1C\uB514\uC624 \"\uD658\uC601\""
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C/\uD658\uC601"
-    tribeList:
-    - "\uD734\uBA3C"
-    - "\uD658\uC601"
+    countryList: 05000000
+    tribeList: 0100000009000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uB2A5\uAC00\uD558\uACA0\uC0AC\uC640\uC694. \uB2E4\uC218\uC758
@@ -5769,18 +5502,18 @@ MonoBehaviour:
       \uC5B4\uD0DD\uACFC \uC778\uD130\uC149\uD2B8\uD560 \uC218 \uC788\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000138
+    - card_63100138
+    - card_63200138
+    - card_63300138
   - id: 63000139
     cardName: "X-CeeDaNCe \uBA54\uB9AC\u30FB\uD06C\uB9AC\uC2DC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C/\uD658\uC601"
-    tribeList:
-    - "\uD734\uBA3C"
-    - "\uD658\uC601"
+    countryList: 05000000
+    tribeList: 0100000009000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC5EC\uAE30\uB294 \uD654\uB825\uC774 \uC804\uBD80. \uADF8\uC57C\uB9D0\uB85C
@@ -5793,17 +5526,15 @@ MonoBehaviour:
       \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000139
   - id: 63000140
     cardName: "\uBC29\uACFC\uD6C4\uD2B9\uD6C8 \uC544\uBE4C\uB9AC\uD0C0"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
-    tribeList:
-    - "\uB4DC\uB798\uACE0\uB85C\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 0a000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uCD94\uAC00 \uB808\uC2A8\uC744 \uC5F0\uC18D\uC73C\uB85C \uC18C\uD654\uD560
@@ -5815,17 +5546,15 @@ MonoBehaviour:
       (\uC0C1\uB300 \uD134\uC5D0\uB3C4 \uC720\uD6A8)"
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000140
   - id: 63000141
     cardName: "Go Go Street! \uCFE8\uB808\uC774"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC6CC\uBE44\uC2A4\uD2B8"
-    tribeList:
-    - "\uC6CC\uBE44\uC2A4\uD2B8"
+    countryList: 05000000
+    tribeList: 05000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uCD95\uC81C\uB294 \uC544\uC9C1\uB3C4 \uACC4\uC18D\uB3FC\uC694!\u300F"
@@ -5837,18 +5566,15 @@ MonoBehaviour:
       \uADF8 \uD134 \uC911, \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000141
   - id: 63000142
     cardName: "X-CeeDaNCe \uBE48\uC2A4\uD130"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C/\uD658\uC601"
-    tribeList:
-    - "\uD734\uBA3C"
-    - "\uD658\uC601"
+    countryList: 05000000
+    tribeList: 0100000009000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD765\uD765\u266A \uC774\uB300\uB85C \uB2E8\uC228\uC5D0 \uC55E\uC9C8\uB7EC
@@ -5875,7 +5601,9 @@ MonoBehaviour:
       2\uB85C \uD55C\uB2E4."
     availableRarities: 000000000100000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000142
+    - card_63100142
+    - card_63300142
   - id: 63000143
     cardName: "\uC131\uC131\uAC01\uD76C \uC544\uC2A4\uD2B8\uB85C\uC544=\uC720\uB2C8\uCE74
       \"\uD658\uC601\""
@@ -5883,11 +5611,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C/\uD658\uC601"
-    tribeList:
-    - "\uD734\uBA3C"
-    - "\uD658\uC601"
+    countryList: 05000000
+    tribeList: 0100000009000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC131\uAC01\uD5A5\uBA85\u2015\u2015\uADF8 \uB208\uB3D9\uC790\uC5D0
@@ -5916,18 +5641,18 @@ MonoBehaviour:
       \uC154\uD50C\uD55C\uB2E4."
     availableRarities: 00000000010000000200000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000143
+    - card_63100143
+    - card_63200143
+    - card_63300143
   - id: 63000144
     cardName: "Star\uFF0BLiner \uD3EC\uB77C\uC2A4"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uB370\uBAAC/\uD658\uC601"
-    tribeList:
-    - "\uB370\uBAAC"
-    - "\uD658\uC601"
+    countryList: 05000000
+    tribeList: 0400000009000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD788\uD788\u2026\u2026 \uC624\uD0C0\uCFE0 \uC5EC\uB7EC\uBD84,
@@ -5948,17 +5673,16 @@ MonoBehaviour:
       \uADF8\uB808\uC774\uB4DC 3 \uC774\uC0C1\uC774\uB77C\uBA74, \uB2E4\uC2DC \uD30C\uC6CC+5000."
     availableRarities: 0000000003000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000144
+    - card_63300144
   - id: 63000145
     cardName: "\uB514\uC5B4\uB808\uC2A4\uD2B8\u30FB\uC5B4\uD53C\uB2C8\uD2F0 \uB77C\uC774\uC82F"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uADC0\uBD80\uC778\uC774\uB77C\uACE0 \uC6B8\uB824\uD37C\uC9C0\uB294
@@ -5975,17 +5699,15 @@ MonoBehaviour:
       \uC774 \uC720\uB2DB\uC758 \uD30C\uC6CC+5000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000145
   - id: 63000146
     cardName: "\uD50C\uB798\uC2DC\u30FB\uBE0C\uB7EC\uC2DC \uD50C\uB85C\uC824\uB9AC\uC544"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uC5D8\uD504"
-    tribeList:
-    - "\uC5D8\uD504"
+    countryList: 05000000
+    tribeList: 08000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uBB34\uC6B0. \uADF8\uB807\uAC8C \uCE6D\uCC2C\uD574\uBD24\uC790
@@ -6015,17 +5737,15 @@ MonoBehaviour:
       \uC774\uC0C1\uC774\uB77C\uBA74, 1\uC7A5\uC774 \uC544\uB2CC 2\uC7A5 \uC120\uD0DD\uD55C\uB2E4."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000146
   - id: 63000147
     cardName: "Wrap Up Well \uCF58\uD50C\uB85C\uB108"
     grade: 3
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC794\uC794\uD55C \uBC14\uB2E4\uC5D0\uC11C, \uC61B \uC804\uC124\uC744
@@ -6044,7 +5764,7 @@ MonoBehaviour:
       \uD30C\uC6CC+10000."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000147
   - id: 63000148
     cardName: "\uC774\uBBF8\uC9C0\uD574\uB77C! \uB9C8\uB9B4\uB80C\uACFC\uC758 \uD32C\uBBF8\uD305\uC744!
       \uB2E4\uC6B0\uB108\uB204\uB098"
@@ -6052,10 +5772,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uD734\uBA3C"
-    tribeList:
-    - "\uD734\uBA3C"
+    countryList: 05000000
+    tribeList: 01000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uC798 \uB4E4\uC5B4\uB77C \uC18C\uB144, \uC774\uBBF8\uC9C0\uD574\uB77C.
@@ -6084,42 +5802,15 @@ MonoBehaviour:
       \uCC28\uC9C0\u3011(3)."
     availableRarities: 00000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
-  - id: 63030000
-    cardName: "\uC138\uD2B8\uC8FC\uC720 \uC2A4\uD398\uC15C \uB77C\uC774\uBE0C\uD22C\uC5B4!"
-    grade: 3
-    power: 0
-    shield: 0
-    critical: 0
-    countryList: 01000000
-    tribeRaw: None
-    tribeList:
-    - None
-    triggerType: 0
-    cardType: 1
-    flavorText: "\u300E\uD559\uC6D0\uB3C4\uC2DC\uC640 \uAC19\uC774 \uB098\uC544\uAC00\uB294
-      \uAC83\uC73C\uB85C \uC804 \uC138\uACC4\uAC00 \uB77C\uC774\uBE0C \uD68C\uC7A5\uC774
-      \uB41C\uB2E4.\u300F"
-    effectText: "(\uC138\uD2B8 \uC624\uB354\uB294 \uD50C\uB808\uC774\uD6C4, \uC624\uB354\uC874\uC5D0
-      \uB193\uB294\uB2E4)\r\n\u3010\uAE30\uB3D9\u3011\u3010\uC624\uB354\uC874\u3011\u3010\uD1341\uD68C\u3011
-      : \u3010\uCF54\uC2A4\uD2B8\u3011[\u3010\uCE74\uC6B4\uD130 \uBE14\uB798\uC2A4\uD2B8\u3011(2)]\uD558\uB294
-      \uAC83\uC73C\uB85C, \uC790\uC2E0\uC758 \uBC45\uAC00\uB4DC\uB97C 1\uC7A5 \uC120\uD0DD\uD574,
-      \uADF8 \uD134 \uC911, \u300E\u3010\uC601\uC18D\u3011\u3010\uBC45\uAC00\uB4DC
-      \uC11C\uD074\u3011 : \uC790\uC2E0\uC758 \uB9AC\uC5B4\uAC00\uB4DC \uC804\uBD80\uC758
-      \uD30C\uC6CC+5000.\u300F\uC744 \uC5BB\uB294\uB2E4."
-    availableRarities: 00000000
-    spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_63000148
   - id: 64000000
     cardName: "Astesice \xD7 Live \uCE74\uC774\uB9AC"
     grade: 4
     power: 13000
     shield: 0
     critical: 1
-    countryList: 01000000
-    tribeRaw: "\uBA38\uBA54\uC774\uB4DC"
-    tribeList:
-    - "\uBA38\uBA54\uC774\uB4DC"
+    countryList: 05000000
+    tribeList: 10000000
     triggerType: 0
     cardType: 0
     flavorText: "\u300E\uD654\uB824\uD55C \uBB34\uB300\uC5D0\uC11C \uC544\uC774\uB3CC\uB4E4\uC740
@@ -6136,4 +5827,6 @@ MonoBehaviour:
       \uCF5C\uD55C\uB2E4."
     availableRarities: 000000000100000002000000
     spriteAssetKeys:
-    - card_64000000|card_64100000|card_64200000
+    - card_64000000
+    - card_64100000
+    - card_64200000

@@ -37,7 +37,7 @@ public class ActionSystem : MonoBehaviour
     }
     public void Ride()
     {
-        if (DeckManager.Instance?.ridedeckList != null) 
+        //if (DeckManager.Instance?.ridedeckList != null) 
         {
             //HandManager.Instance?.handList.RemoveAt();
         }

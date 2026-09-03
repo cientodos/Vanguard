@@ -2,6 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 using GoogleSheetsToUnity;
+using Vanguard.Data.Databases;
 
 [CustomEditor(typeof(CardReader))]
 public class CardReaderEditor : Editor
