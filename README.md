@@ -1,33 +1,59 @@
-#  Cardfight!! Vanguard Fan Game / Replica Project
-> Unity 및 C# 기반으로 제작한 2D TCG 게임 프로젝트입니다.
-> 대량의 카드 데이터 처리, 비동기 리소스 로딩, UI 성능 최적화에 중점을 두고 개발했습니다.
+Cardfight!! Vanguard Fan Game / Replica Project
 
-##  시연 및 주요 기능 (GIF / Video)
-- [카드 검색 및 덱 빌딩 시연 GIF]
-- [Addressable 기반 카드 비동기 로딩 시연 GIF]
+Unity 및 C# 기반으로 제작한 2D TCG 게임 프로젝트입니다.
+대량의 카드 데이터 파이프라인 구축, Addressables 기반 비동기 리소스 관리, UI 성능 최적화에 중점을 두고 개발했습니다.
 
-##  Tech Stack & Environment
-- **Engine**: Unity 2022.3.12f1 (2D)
-- **Language**: C#
-- **Key Modules**: Addressables, Recyclable Scroll Rect, JSON Data Parsing
+시연 및 주요 기능
+덱 빌딩 및 카드 필터링 시연 (GIF/Video)
 
-##  Key Architecture & Features (주요 구현 역량)
+Addressables 기반 비동기 카드 로딩 및 메모리 해제 시연 (GIF/Video)
 
-### 1. Addressables 기반 카드 리소스 비동기 로딩 및 메모리 최적화
-- **문제점**: 수백 장의 카드 고화질 스프라이트를 동기 로딩 시 메모리 점유율 급증 및 프레임 드랍 발생.
-- **해결방안**: Addressable Asset System을 도입해 카드 일러스트 및 메타데이터를 비동기(Async) 로딩. 
-- **성과**: 화면에 표시되지 않는 카드 리소스를 동적 해제(Release)하여 메모리 워크로드 절감 및 로딩 스파이크 방지.
+Tech Stack & Environment
+Engine: Unity 2022.3.12f1 (2D)
 
-### 2. Recyclable Scroll Rect를 활용한 덱 빌더 UI 성능 최적화
-- **문제점**: 덱 빌더에서 수백 개의 카드 UI 오브젝트(Instantiate) 생성 시 Draw Call 및 캔버스 재연산(Canvas Rebatching)으로 인한 성능 저하.
-- **해결방안**: Object Pooling 기법 기반의 `Recyclable Scroll Rect`를 도입하여 화면에 노출되는 Cell만 재사용하도록 구조화.
-- **성과**: 카드 목록 스크롤 시 60 FPS 유지 및 UI 메모리 점유 대폭 감소.
+Language: C#
 
-### 3. DeckManager 및 JSON 기반 덱 데이터 구조화
-- **구현 내용**: 메인 덱, 라이드 덱, 엑스트라 덱의 제약 조건 규칙을 검증하는 `DeckVaildator` 구현.
-- **데이터 관리**: 카드 ID 및 덱 구성을 JSON으로 직렬화/역직렬화하여 데이터 영속성 확보 및 고레어 카드 정렬 알고리즘 적용.
+Key Modules: Addressables, Recyclable Scroll Rect, GSTU (Google Sheets To Unity), JSON Data Parsing
 
-##  Key Source Code Links
-- 📄 [DeckManager.cs](링크주소): 덱 검증 및 라이드/엑스트라 덱 로직 관리
-- 📄 [CardResourceLoader.cs](링크주소): Addressables 기반 비동기 카드 이미지 로더
-- 📄 [DeckBuilderScrollView.cs](링크주소): Recyclable Scroll Rect 기반 UI 풀링 로직
+Key Architecture & Features (주요 구현 역량)
+1. GSTU(Google Sheets To Unity) 기반 카드 메타데이터 파이프라인
+문제점: 수백 장의 카드 데이터 수치 및 밸런스 변경 시 매번 클라이언트 코드를 수정하거나 로컬 파일을 수동으로 업데이트하는 비효율 발생.
+
+해결방안: GSTU 플러그인을 활용하여 구글 스프레드시트의 Raw 데이터를 쿼리하고, 이를 C# Card 객체 데이터베이스로 자동 파싱·변환하는 파이프라인 구축.
+
+성과: 기획 데이터 변경 시 재빌드 없이 에디터 내 동기화만으로 최신 스탯 반영이 가능해져 데이터 관리 및 개발 생산성 향상.
+
+2. Recyclable Scroll Rect를 활용한 덱 빌더 UI 성능 최적화
+문제점: 덱 빌더 카드 풀 출력 시 수백 개의 카드 UI GameObject 생성으로 인한 Draw Call 급증 및 Canvas Rebatching 병목 현상.
+
+해결방안: IRecyclableScrollRectDataSource 인터페이스를 구현하여 화면에 노출되는 Cell에만 데이터를 동적 재바인딩(Re-bind)하는 Object Pooling 기반 스크롤 구조 설계.
+
+성과: 수백 장의 카드 데이터를 출력해도 스크롤 시 60 FPS 유지 및 UI 관련 메모리 점유율 대폭 감소.
+
+3. Addressables 기반 비동기 카드 리소스 및 메모리 최적화
+문제점: 수백 장의 고화질 카드 스프라이트를 동기 로딩(Resources.Load)할 경우 초기 로딩 지연 및 메모리 워크로드 급증.
+
+해결방안: Addressable Asset System을 도입하여 필요한 시점에 카드 일러스트를 비동기(Async) 로딩하고, 중복 로드를 방지하는 캐싱 기법 적용.
+
+성과: 화면에서 벗어나거나 더 이상 사용하지 않는 리소스를 동적 해제(Release)하여 메모리 누수 방지 및 로딩 스파이크 최소화.
+
+4. DeckValidator 및 JSON 기반 덱 데이터 구조화
+구현 내용: 메인 덱, 라이드 덱, 엑스트라 덱의 카드 구성 제약 조건 및 매칭 규칙을 무결하게 검증하는 DeckValidator 구현.
+
+데이터 관리: 유저의 덱 구성을 JSON으로 직렬화/역직렬화하여 데이터 영속성 확보 및 조건별(레어도, 클랜 등) 정렬 알고리즘 적용.
+
+Key Source Code Links
+DeckValidator.cs
+
+핵심 역할: 메인/라이드/엑스트라 덱 제약 조건 및 동일 카드 수량 제한 검증 로직
+
+CardReader.cs
+
+핵심 역할: GSTU 기반 구글 시트 연동 및 카드 메타데이터 자동 파싱 파이프라인
+
+CardPoolListController.cs
+
+핵심 역할: IRecyclableScrollRectDataSource 구현을 통한 UI Virtualization 및 데이터 재바인딩 최적화
+
+- 📄 [CardItemCell.cs](https://github.com/cientodos/Vanguard/blob/main/Assets/Script/Modules/DeckBuilder/CardItemCell.cs)
+  - **핵심 역할**: Recyclable UI 셀의 Addressables 비동기 이미지 로딩, 메모리 즉시 해제(`ReleaseSprite`), 예외 처리 및 클릭 이벤트 제어
