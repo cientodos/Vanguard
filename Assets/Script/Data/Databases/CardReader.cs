@@ -50,7 +50,7 @@ namespace Vanguard.Data.Databases
                 }
             }
             {
-                // 💡 [수정 4] 최초 등록
+   
                 CardData card = new CardData(
                     id, name, grade, power, shield, critical,
                     new List<CountryType>(countryList), new List<TribeType>(tribeList),
