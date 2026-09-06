@@ -4,9 +4,9 @@ Unity 및 C# 기반으로 제작한 2D TCG 게임 프로젝트입니다.
 대량의 카드 데이터 파이프라인 구축, Addressables 기반 비동기 리소스 관리, UI 성능 최적화에 중점을 두고 개발했습니다.
 
 시연 및 주요 기능
-덱 빌딩 및 카드 필터링 시연 (GIF/Video)
-
-Addressables 기반 비동기 카드 로딩 및 메모리 해제 시연 (GIF/Video)
+https://www.youtube.com/watch?v=muiJepZamNk
+덱 빌딩 및 카드 필터링 시연 
+Addressables 기반 비동기 카드 로딩 및 메모리 해제 시연
 
 Tech Stack & Environment
 Engine: Unity 2022.3.12f1 (2D)
