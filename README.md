@@ -37,23 +37,11 @@ Key Architecture & Features (주요 구현 역량)
 
 성과: 화면에서 벗어나거나 더 이상 사용하지 않는 리소스를 동적 해제(Release)하여 메모리 누수 방지 및 로딩 스파이크 최소화.
 
-4. DeckValidator 및 JSON 기반 덱 데이터 구조화
-구현 내용: 메인 덱, 라이드 덱, 엑스트라 덱의 카드 구성 제약 조건 및 매칭 규칙을 무결하게 검증하는 DeckValidator 구현.
-
-데이터 관리: 유저의 덱 구성을 JSON으로 직렬화/역직렬화하여 데이터 영속성 확보 및 조건별(레어도, 클랜 등) 정렬 알고리즘 적용.
-
-Key Source Code Links
-DeckValidator.cs
-
-핵심 역할: 메인/라이드/엑스트라 덱 제약 조건 및 동일 카드 수량 제한 검증 로직
-
-CardReader.cs
-
-핵심 역할: GSTU 기반 구글 시트 연동 및 카드 메타데이터 자동 파싱 파이프라인
-
-CardPoolListController.cs
-
-핵심 역할: IRecyclableScrollRectDataSource 구현을 통한 UI Virtualization 및 데이터 재바인딩 최적화
-
-- 📄 [CardItemCell.cs](https://github.com/cientodos/Vanguard/blob/main/Assets/Script/Modules/DeckBuilder/CardItemCell.cs)
-  - **핵심 역할**: Recyclable UI 셀의 Addressables 비동기 이미지 로딩, 메모리 즉시 해제(`ReleaseSprite`), 예외 처리 및 클릭 이벤트 제어
+* 📄 [DeckValidator.cs](https://github.com/cientodos/Vanguard/blob/main/Assets/Script/Modules/DeckBuilder/Controllers/DeckValidator.cs)
+  * **핵심 역할**: 메인/라이드/엑스트라 덱 제약 조건 및 동일 카드 수량 제한 검증 로직
+* 📄 [CardReader.cs](https://github.com/cientodos/Vanguard/blob/main/Assets/Script/Data/Databases/CardReader.cs)
+  * **핵심 역할**: GSTU 기반 구글 시트 연동 및 카드 메타데이터 자동 파싱 파이프라인
+* 📄 [CardPoolListController.cs](https://github.com/cientodos/Vanguard/blob/main/Assets/Script/Modules/DeckBuilder/CardPoolListController.cs)
+  * **핵심 역할**: `IRecyclableScrollRectDataSource` 구현을 통한 UI Virtualization 및 데이터 재바인딩 최적화
+* 📄 [CardItemCell.cs](https://github.com/cientodos/Vanguard/blob/main/Assets/Script/Modules/DeckBuilder/CardItemCell.cs)
+  * **핵심 역할**: Recyclable UI 셀의 Addressables 비동기 이미지 로딩, 메모리 즉시 해제(`ReleaseSprite`), 예외 처리 및 클릭 이벤트 제어
