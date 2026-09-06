@@ -1,3 +1,6 @@
+using EnumData;
+using Vanguard.Data.DataModels;
+
 public static class CardIdUtil
 {
     /// <summary>
@@ -8,5 +11,14 @@ public static class CardIdUtil
     {
         int rarityDigit = (rawCardId / 100000) % 10;
         return rawCardId - (rarityDigit * 100000);
+    }
+    public static int GetSentinelCardId(int rawCardId)
+    {
+        return (rawCardId / 10000) % 10;
+    }
+    public static void ApplyCardTypeInfo(int rawCardId, CardData cardData)
+    {
+        int typeDigit = GetSentinelCardId(rawCardId);
+        cardData.isSentinel = (typeDigit == 4);
     }
 }

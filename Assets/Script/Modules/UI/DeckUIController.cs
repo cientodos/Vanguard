@@ -1,112 +1,123 @@
-using UnityEngine;
+ï»¿using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using Vanguard.CardSystem.UI;
 using Vanguard.Data.DataModels;
 
 
 public class DeckUIController : MonoBehaviour
-{
-    [Header("ÇöÀç ¼±ÅÃµÈ µ¦ ID")]
-    public string currentSelectedDeckId;
+{   
+    #region Header
+    [Header("UI í† ê¸€")]
+    private bool isRideMode = false;
+    private bool isDeleteMode = false;
 
-    [Header("ÀÓ½Ã Å¬¸³º¸µå (º¹»ç/ºÙ¿©³Ö±â¿ë)")]
-    private DeckData copiedDeckData;
-
-    #region ¹öÆ° ¿¬µ¿ Àü¿ë void ¸Þ¼­µå
-
-    // 2. µ¦ ÀúÀå ¹öÆ°
-    public void OnClick_SaveDeck()
+    [Header("UI ì»´í¬ë„ŒíŠ¸")]
+    [SerializeField] public Button saveButton;
+    [SerializeField] public Button openCardList;
+    [SerializeField] public Button toggleRideButton;
+    [SerializeField] public Button toggleDeleteButton;
+    [SerializeField] private GameObject cardPanel;
+    [SerializeField] private GameObject deckPanel;
+    #endregion
+    DeckManager manager;
+    private CardData targetCardData;
+    private void OnEnable()
     {
-        DeckManager.Instance.SaveDecks();
-        Debug.Log("[UI] ÇöÀç µ¦ Á¤º¸°¡ ÀúÀåµÇ¾ú½À´Ï´Ù.");
+        CardItemCell.OnCellClicked += HandleCellClicked;
     }
 
-    // 3. »õ·Î ÀÛ¼º (»õ µ¦ ¸¸µé±â) ¹öÆ°
-    public void OnClick_CreateNewDeck()
+    private void OnDisable()
     {
-        if (DeckManager.Instance.CreateNewDeck("»õ µ¦", out DeckData newDeck))
+        CardItemCell.OnCellClicked -= HandleCellClicked;
+    }
+    private void HandleCellClicked(PointerEventData.InputButton button, CardData cardData, Vector2 position, Sprite sprite)
+    {
+        if (button == PointerEventData.InputButton.Left)
         {
-            currentSelectedDeckId = newDeck.deckId;
-            Debug.Log($"[UI] »õ µ¦ÀÌ »ý¼ºµÇ¾ú½À´Ï´Ù. (ID: {newDeck.deckId})");
-            // TODO: UI ¸ñ·Ï ¸®ÇÁ·¹½Ã / µ¦ ÆíÁý È­¸é °»½Å ·ÎÁ÷
+            OnCardClicked(cardData);
+        }
+    }
+    public void OnClickSaveDeck()
+    {
+        DeckManager.Instance.SaveDecks();
+    }
+
+    public void OnClickToggleRideDeck()
+    {
+        isRideMode = !isRideMode;
+
+        if (isRideMode)
+        {
+            isDeleteMode = false;
+        }
+    }
+
+    public void OnClickToggleCardDelete()
+    {
+        isDeleteMode = !isDeleteMode;
+
+        if (isDeleteMode)
+        {
+            isRideMode = false;
+        }
+    }
+
+
+    public void OnCardClicked(CardData clickedCardData)
+    {
+        int cardId = clickedCardData.id;
+
+        if (isRideMode)
+        {
+            // [ë¼ì´ë“œë± ëª¨ë“œ ON] -> ToggleRideDeckCard ì‹¤í–‰
+            DeckManager.Instance?.ToggleRideDeckCard(cardId);
+        }
+        else if (isDeleteMode)
+        {
+            // [ì‚­ì œ ëª¨ë“œ ON] -> RemoveCardFromDeck ì‹¤í–‰
+            var currentDeck = DeckManager.Instance?.currentSelectedDeck;
+            if (currentDeck != null)
+            {
+                DeckManager.Instance.RemoveCardFromDeck(currentDeck, cardId);
+            }
         }
         else
         {
-            Debug.LogWarning("[UI] µ¦ »ý¼º ½ÇÆÐ: ÀúÀå °¡´É °³¼ö(30°³)¸¦ ÃÊ°úÇß½À´Ï´Ù.");
+            // [ê¸°ë³¸ ëª¨ë“œ] -> ìƒì„¸ ë³´ê¸° ë“±
+            targetCardData = clickedCardData;
+            Debug.Log($"[Normal] ì¹´ë“œ ì„ íƒ: {clickedCardData.cardName}");
         }
     }
 
-    // 4. µ¦ Áö¿ì±â ¹öÆ°
-    public void OnClick_DeleteDeck()
+    public void DeckListClear()
     {
-        if (string.IsNullOrEmpty(currentSelectedDeckId))
+        if (manager.deckList == null || manager.deckList.Count == 0)
         {
-            Debug.LogWarning("[UI] ¼±ÅÃµÈ µ¦ÀÌ ¾ø½À´Ï´Ù.");
             return;
         }
-
-        if (DeckManager.Instance.DeleteDeck(currentSelectedDeckId))
-        {
-            Debug.Log($"[UI] µ¦ÀÌ »èÁ¦µÇ¾ú½À´Ï´Ù. (ID: {currentSelectedDeckId})");
-            currentSelectedDeckId = string.Empty;
-            // TODO: UI ¸ñ·Ï ¸®ÇÁ·¹½Ã
-        }
     }
 
-    // 5. ¸ÅÆ® ¼³Á¤ ¹öÆ°
-    public void OnClick_OpenMatSettings()
+    public void OnClickOpenMatSettings()
     {
-        Debug.Log("[UI] ¸ÅÆ® ¼³Á¤ Ã¢ ¿­±â");
-        // TODO: ¸ÅÆ® º¯°æ UI ÆË¾÷ Åä±Û
+      //ë§¤íŠ¸ ì„¸íŒ…ì°½ì—´ê¸°
     }
 
-    // 6. ½½¸®ºê ¼³Á¤ ¹öÆ°
-    public void OnClick_OpenSleeveSettings()
+    public void OnClickOpenSleeveSettings()
     {
-        Debug.Log("[UI] ½½¸®ºê ¼³Á¤ Ã¢ ¿­±â");
-        // TODO: Ä«µå µÞ¸é/½½¸®ºê UI ÆË¾÷ Åä±Û
+        //ìŠ¬ë¦¬ë¸Œ ì„¸íŒ…ì°½ì—´ê¸°
     }
 
-    // 8. µ¦ º¹»ç ¹öÆ°
-    public void OnClick_CopyDeck()
+    public void OpenCardPanel()
     {
-        DeckData targetDeck = DeckManager.Instance.deckList.Find(d => d.deckId == currentSelectedDeckId);
-        if (targetDeck == null)
-        {
-            Debug.LogWarning("[UI] º¹»çÇÒ µ¦ÀÌ ¼±ÅÃµÇÁö ¾Ê¾Ò½À´Ï´Ù.");
-            return;
-        }
-
-        // Deep Copy (±íÀº º¹»ç)·Î º¹»çº» »ý¼º
-        copiedDeckData = new DeckData(targetDeck.deckName + " - º¹»çº»");
-        copiedDeckData.mainDeckCardIds = new System.Collections.Generic.List<int>(targetDeck.mainDeckCardIds);
-
-        Debug.Log($"[UI] µ¦ '{targetDeck.deckName}' º¹»ç ¿Ï·á.");
+        cardPanel.SetActive(true);
+        deckPanel.SetActive(false);
     }
-
-    // 9. µ¦ ºÙ¿©³Ö±â ¹öÆ°
-    public void OnClick_PasteDeck()
+    public void CloseCardPanel()
     {
-        if (copiedDeckData == null)
-        {
-            Debug.LogWarning("[UI] º¹»çµÈ µ¦ µ¥ÀÌÅÍ°¡ ¾ø½À´Ï´Ù.");
-            return;
-        }
-
-        if (DeckManager.Instance.deckList.Count >= DeckManager.MAX_DECK_COUNT)
-        {
-            Debug.LogWarning("[UI] µ¦ ÀúÀå ÇÑµµ(30°³)¸¦ ÃÊ°úÇÏ¿© ºÙ¿©³ÖÀ» ¼ö ¾ø½À´Ï´Ù.");
-            return;
-        }
-
-        // »õ·Î¿î GUID¸¦ ºÎ¿©¹Þ¾Æ µ¦ ¸ñ·Ï¿¡ µî·Ï
-        DeckData pastedDeck = new DeckData(copiedDeckData.deckName);
-        pastedDeck.mainDeckCardIds = new System.Collections.Generic.List<int>(copiedDeckData.mainDeckCardIds);
-
-        DeckManager.Instance.deckList.Add(pastedDeck);
-        DeckManager.Instance.SaveDecks();
-
-        currentSelectedDeckId = pastedDeck.deckId;
-        Debug.Log($"[UI] µ¦ ºÙ¿©³Ö±â ¼º°ø! (ID: {pastedDeck.deckId})");
-        // TODO: UI ¸ñ·Ï ¸®ÇÁ·¹½Ã
+        cardPanel.SetActive(false);
+        deckPanel.SetActive(true);
     }
-    #endregion
+
+
 }

@@ -1,3 +1,4 @@
+ï»¿using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Vanguard.Data.DataModels;
@@ -6,48 +7,94 @@ namespace Vanguard.Data.Databases
 {
     public static class CardDatabase
     {
-        private static CardReader cardReader;
+        #region Header
         private static readonly Dictionary<int, CardData> cardDict = new();
-        private static bool isInitialized = false;
-
-        public static void Initialize()
+        public static bool isInitialized = false;
+        public static event Action OnDatabaseReady;
+        #endregion
+        public static void Initialize(List<CardData> rawDataList)
         {
             if (isInitialized) return;
 
-            // Resources Æú´õ¿¡¼­ CardReader.asset ·Îµå
-            cardReader = Resources.Load<CardReader>("CardReader");
-
-            if (cardReader == null)
-            {
-                Debug.LogError("[CardDatabase] Resources Æú´õ¿¡¼­ CardReader.assetÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù!");
-                return;
-            }
-
-            // ºü¸¥ Á¶È¸¸¦ À§ÇØ µñ¼Å³Ê¸®¿¡ ¸ÅÇÎ
             cardDict.Clear();
-            foreach (var data in cardReader.DataList)
+
+            foreach (var rawCard in rawDataList)
             {
-                if (data != null && !cardDict.ContainsKey(data.id))
+                if (rawCard == null) continue;
+
+                // 1. ì›ë³¸ ì¹´ë“œ ë“±ë¡ (ê¸°ë³¸ ë ˆì–´ë¦¬í‹° / ì²« ë²ˆì§¸ ìŠ¤í”„ë¼ì´íŠ¸)
+                CardIdUtil.ApplyCardTypeInfo(rawCard.id, rawCard);
+                cardDict[rawCard.id] = rawCard;
+
+                // 2. spriteAssetKeysê°€ 2ê°œ ì´ìƒì¼ ë•Œ ê³ ë ˆì–´ ë³µì‚¬ë³¸ ë“±ë¡
+                if (rawCard.spriteAssetKeys != null && rawCard.spriteAssetKeys.Count > 1)
                 {
-                    cardDict.Add(data.id, data);
+                    GenerateRarityVariants(rawCard);
                 }
             }
 
             isInitialized = true;
-            Debug.Log($"[CardDatabase] ÃÑ {cardDict.Count}ÀåÀÇ Ä«µå°¡ ¼º°øÀûÀ¸·Î ·ÎµåµÇ¾ú½À´Ï´Ù.");
+            Debug.Log($"[CardDatabase] ì´ˆê¸°í™” ì™„ë£Œ! ì›ë³¸ + ê³ ë ˆì–´ í¬í•¨ ì´ {cardDict.Count}ì¥ì˜ ì¹´ë“œê°€ ë“±ë¡ë˜ì—ˆìŠµë‹ˆë‹¤.");
+            OnDatabaseReady?.Invoke();
+        }
+
+        private static void GenerateRarityVariants(CardData rawCard)
+        {
+          
+            for (int i = 1; i < rawCard.spriteAssetKeys.Count; i++)
+            {
+                
+                int rarityValue = (rawCard.availableRarities != null && i < rawCard.availableRarities.Count) ? rawCard.availableRarities[i] : i;
+
+               
+                int variantId = ChangeRarityDigit(rawCard.id, rarityValue);
+
+                CardData rarityCard = new CardData
+                {
+                    id = variantId,
+                    cardName = rawCard.cardName,
+                    grade = rawCard.grade,
+                    power = rawCard.power,
+                    shield = rawCard.shield,
+                    critical = rawCard.critical,
+                    countryList = rawCard.countryList != null ? new List<EnumData.CountryType>(rawCard.countryList) : new List<EnumData.CountryType>(),
+                    tribeList = rawCard.tribeList != null ? new List<EnumData.TribeType>(rawCard.tribeList) : new List<EnumData.TribeType>(),
+                    triggerType = rawCard.triggerType,
+                    cardType = rawCard.cardType,
+                    flavorText = rawCard.flavorText,
+                    effectText = rawCard.effectText,
+                    availableRarities = rawCard.availableRarities != null ? new List<int>(rawCard.availableRarities) : new List<int>(),
+                    spriteAssetKeys = new List<string> { rawCard.spriteAssetKeys[i] }
+                };
+
+                CardIdUtil.ApplyCardTypeInfo(rarityCard.id, rarityCard);
+
+                if (!cardDict.ContainsKey(variantId))
+                {
+                    cardDict.Add(variantId, rarityCard);
+                }
+            }
+        }
+
+        /// <summary>
+        /// IDì˜ 3ë²ˆì§¸ ìë¦¬(ë°±ë§Œ ìë¦¬ = 100,000 ë‹¨ìœ„)ë¥¼ ìƒˆë¡œìš´ ë ˆì–´ë„ ê°’ìœ¼ë¡œ êµì²´í•©ë‹ˆë‹¤.
+        /// ì˜ˆ: 62001234 -> ë ˆì–´ë„ 3(FFR) ëŒ€ì… -> 62301234
+        /// </summary>
+        private static int ChangeRarityDigit(int originalId, int newRarity)
+        {
+            int currentRarityDigit = (originalId / 100000) % 10;
+            int baseId = originalId - (currentRarityDigit * 100000);
+            return baseId + (newRarity * 100000);
         }
 
         public static CardData Get(int id)
         {
-            if (!isInitialized) Initialize();
+            return cardDict.TryGetValue(id, out var card) ? card : null;
+        }
 
-            if (cardDict.TryGetValue(id, out var card))
-            {
-                return card;
-            }
-
-            Debug.LogError($"[CardDatabase] ID {id}¿¡ ÇØ´çÇÏ´Â Ä«µå°¡ ¾ø½À´Ï´Ù.");
-            return null;
+        public static List<CardData> GetAll()
+        {
+            return new List<CardData>(cardDict.Values);
         }
     }
 }

@@ -18,6 +18,7 @@ namespace Vanguard.Data.DataModels
         public int shield;                      // 0
         public int critical;                    // 1
         public int maxCount = 4;
+        public bool isSentinel = false;
         [Header("加己 沥焊")]
         public List<CountryType> countryList = new List<CountryType>();            // Enum 包府 
         public List<TribeType> tribeList = new List<TribeType>();

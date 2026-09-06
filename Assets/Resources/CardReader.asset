@@ -22,6 +22,8 @@ MonoBehaviour:
     power: 6000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -41,6 +43,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 1
@@ -59,6 +63,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 1
@@ -75,6 +81,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 1
@@ -90,6 +98,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 1
@@ -106,6 +116,8 @@ MonoBehaviour:
     power: 4000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 1
@@ -129,6 +141,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 1
@@ -145,6 +159,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 1
@@ -162,6 +178,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 1
@@ -178,6 +196,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 1
@@ -194,6 +214,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 1
@@ -210,6 +232,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 2
@@ -226,6 +250,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 2
@@ -242,6 +268,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 2
@@ -258,6 +286,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 2
@@ -273,6 +303,8 @@ MonoBehaviour:
     power: 4000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 2
@@ -294,6 +326,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 2
@@ -310,6 +344,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 2
@@ -326,6 +362,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 2
@@ -342,6 +380,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 2
@@ -358,6 +398,8 @@ MonoBehaviour:
     power: 5000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 2
@@ -374,6 +416,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 3
@@ -390,6 +434,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 3
@@ -406,6 +452,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 3
@@ -421,6 +469,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 3
@@ -436,6 +486,8 @@ MonoBehaviour:
     power: 4000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 3
@@ -457,6 +509,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 3
@@ -473,6 +527,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 3
@@ -488,6 +544,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 3
@@ -503,6 +561,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 3
@@ -519,6 +579,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 3
@@ -534,6 +596,8 @@ MonoBehaviour:
     power: 0
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 3
@@ -554,6 +618,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 4
@@ -572,6 +638,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 4
@@ -588,6 +656,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 4
@@ -604,6 +674,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 4
@@ -620,6 +692,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 4
@@ -636,6 +710,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 4
@@ -652,6 +728,8 @@ MonoBehaviour:
     power: 4000
     shield: 10000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 4
@@ -675,6 +753,8 @@ MonoBehaviour:
     power: 4000
     shield: 10000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 4
@@ -697,6 +777,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 4
@@ -713,6 +795,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 4
@@ -729,6 +813,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 4
@@ -745,6 +831,8 @@ MonoBehaviour:
     power: 5000
     shield: 15000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 4
@@ -760,6 +848,8 @@ MonoBehaviour:
     power: 5000
     shield: 50000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 5
@@ -785,6 +875,8 @@ MonoBehaviour:
     power: 5000
     shield: 50000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 5
@@ -811,6 +903,8 @@ MonoBehaviour:
     power: 5000
     shield: 50000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 5
@@ -836,6 +930,8 @@ MonoBehaviour:
     power: 5000
     shield: 50000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 5
@@ -861,6 +957,8 @@ MonoBehaviour:
     power: 5000
     shield: 50000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 5
@@ -886,6 +984,8 @@ MonoBehaviour:
     power: 5000
     shield: 50000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 5
@@ -911,6 +1011,8 @@ MonoBehaviour:
     power: 8000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -935,6 +1037,8 @@ MonoBehaviour:
     power: 3000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -956,6 +1060,8 @@ MonoBehaviour:
     power: 7000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -978,6 +1084,8 @@ MonoBehaviour:
     power: 6000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -1002,6 +1110,8 @@ MonoBehaviour:
     power: 6000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -1025,6 +1135,8 @@ MonoBehaviour:
     power: 6000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -1049,6 +1161,8 @@ MonoBehaviour:
     power: 6000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1073,6 +1187,8 @@ MonoBehaviour:
     power: 6000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1097,6 +1213,8 @@ MonoBehaviour:
     power: 6000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -1121,6 +1239,8 @@ MonoBehaviour:
     power: 6000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1145,6 +1265,8 @@ MonoBehaviour:
     power: 6000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 1
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -1168,6 +1290,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -1191,6 +1315,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -1207,6 +1333,8 @@ MonoBehaviour:
     power: 8000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -1226,6 +1354,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1249,6 +1379,8 @@ MonoBehaviour:
     power: 8000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -1276,6 +1408,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -1298,6 +1432,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1320,6 +1456,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1343,6 +1481,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1365,6 +1505,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1392,6 +1534,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -1413,6 +1557,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1442,6 +1588,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 07000000
     triggerType: 0
@@ -1467,6 +1615,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -1493,6 +1643,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1515,6 +1667,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -1540,6 +1694,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1561,6 +1717,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -1581,6 +1739,8 @@ MonoBehaviour:
     power: 8000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1605,6 +1765,8 @@ MonoBehaviour:
     power: 8000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -1625,6 +1787,8 @@ MonoBehaviour:
     power: 6000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -1647,6 +1811,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -1667,6 +1833,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1690,6 +1858,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -1709,6 +1879,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1729,6 +1901,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -1752,6 +1926,8 @@ MonoBehaviour:
     power: 10000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -1771,6 +1947,8 @@ MonoBehaviour:
     power: 9000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1791,6 +1969,8 @@ MonoBehaviour:
     power: 9000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -1811,6 +1991,8 @@ MonoBehaviour:
     power: 9000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -1832,6 +2014,8 @@ MonoBehaviour:
     power: 9000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1850,6 +2034,8 @@ MonoBehaviour:
     power: 8000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1869,6 +2055,8 @@ MonoBehaviour:
     power: 8000
     shield: 5000
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -1886,6 +2074,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -1913,6 +2103,8 @@ MonoBehaviour:
     power: 10000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -1930,6 +2122,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -1956,6 +2150,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -1984,6 +2180,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2013,6 +2211,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -2042,6 +2242,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -2066,6 +2268,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2091,6 +2295,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -2116,6 +2322,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 07000000
     triggerType: 0
@@ -2144,6 +2352,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -2166,6 +2376,8 @@ MonoBehaviour:
     power: 12000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -2187,6 +2399,8 @@ MonoBehaviour:
     power: 11000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -2208,6 +2422,8 @@ MonoBehaviour:
     power: 10000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -2227,6 +2443,8 @@ MonoBehaviour:
     power: 8000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -2251,6 +2469,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2270,6 +2490,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2291,6 +2513,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -2310,6 +2534,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -2331,6 +2557,8 @@ MonoBehaviour:
     power: 11000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -2349,6 +2577,8 @@ MonoBehaviour:
     power: 10000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -2370,6 +2600,8 @@ MonoBehaviour:
     power: 8000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -2390,6 +2622,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -2419,6 +2653,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -2448,6 +2684,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2475,6 +2713,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -2499,6 +2739,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -2521,6 +2763,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -2546,6 +2790,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -2568,6 +2814,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -2592,6 +2840,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -2610,6 +2860,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -2631,6 +2883,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2654,6 +2908,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2676,6 +2932,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2700,6 +2958,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -2720,6 +2980,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -2739,6 +3001,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -2759,6 +3023,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 03000000
     triggerType: 0
@@ -2777,6 +3043,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -2795,6 +3063,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2813,6 +3083,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -2840,6 +3112,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -2870,6 +3144,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 06000000
     triggerType: 0
@@ -2901,6 +3177,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -2924,6 +3202,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -2954,6 +3234,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -2984,6 +3266,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0d000000
     triggerType: 0
@@ -3014,6 +3298,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3034,6 +3320,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3053,6 +3341,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -3070,6 +3360,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -3091,6 +3383,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -3111,6 +3405,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -3133,6 +3429,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -3152,6 +3450,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3171,6 +3471,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -3189,6 +3491,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -3211,6 +3515,8 @@ MonoBehaviour:
     power: 11000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3230,6 +3536,8 @@ MonoBehaviour:
     power: 11000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -3253,6 +3561,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3284,6 +3594,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -3318,6 +3630,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -3350,6 +3664,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 
     triggerType: 0
@@ -3383,6 +3699,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -3411,6 +3729,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3441,6 +3761,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -3471,6 +3793,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -3502,6 +3826,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3536,6 +3862,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0e000000
     triggerType: 0
@@ -3572,6 +3900,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -3595,6 +3925,8 @@ MonoBehaviour:
     power: 10000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -3623,6 +3955,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -3647,6 +3981,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -3670,6 +4006,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -3693,6 +4031,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3726,6 +4066,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -3755,6 +4097,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -3787,6 +4131,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0d000000
     triggerType: 0
@@ -3828,6 +4174,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -3865,6 +4213,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -3893,6 +4243,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 06000000
     triggerType: 0
@@ -3928,6 +4280,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -3965,6 +4319,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -4001,6 +4357,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -4043,6 +4401,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -4073,6 +4433,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -4096,6 +4458,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -4119,6 +4483,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -4141,6 +4507,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -4164,6 +4532,8 @@ MonoBehaviour:
     power: 10000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -4183,6 +4553,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -4203,6 +4575,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -4224,6 +4598,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -4246,6 +4622,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -4273,6 +4651,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -4293,6 +4673,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -4321,6 +4703,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -4341,6 +4725,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -4362,6 +4748,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0e000000
     triggerType: 0
@@ -4404,6 +4792,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -4445,6 +4835,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -4479,6 +4871,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -4516,6 +4910,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -4551,6 +4947,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -4591,6 +4989,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -4622,6 +5022,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -4647,6 +5049,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 02000000
     triggerType: 0
@@ -4673,6 +5077,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -4695,6 +5101,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -4718,6 +5126,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -4739,6 +5149,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -4760,6 +5172,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -4780,6 +5194,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -4822,6 +5238,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -4851,6 +5269,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -4873,6 +5293,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -4912,6 +5334,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -4934,6 +5358,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -4968,6 +5394,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -4995,6 +5423,8 @@ MonoBehaviour:
     power: 15000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -5017,6 +5447,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -5048,6 +5480,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -5073,6 +5507,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0c000000
     triggerType: 0
@@ -5109,6 +5545,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -5129,6 +5567,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -5155,6 +5595,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -5176,6 +5618,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -5211,6 +5655,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -5231,6 +5677,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0b000000
     triggerType: 0
@@ -5270,6 +5718,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -5289,6 +5739,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -5333,6 +5785,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -5353,6 +5807,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -5375,6 +5831,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -5394,6 +5852,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 04000000
     triggerType: 0
@@ -5414,6 +5874,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0500000009000000
     triggerType: 0
@@ -5455,6 +5917,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -5476,6 +5940,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0100000009000000
     triggerType: 0
@@ -5512,6 +5978,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0100000009000000
     triggerType: 0
@@ -5533,6 +6001,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0a000000
     triggerType: 0
@@ -5553,6 +6023,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 05000000
     triggerType: 0
@@ -5573,6 +6045,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0100000009000000
     triggerType: 0
@@ -5611,6 +6085,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0100000009000000
     triggerType: 0
@@ -5651,6 +6127,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 0400000009000000
     triggerType: 0
@@ -5681,6 +6159,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -5706,6 +6186,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 08000000
     triggerType: 0
@@ -5744,6 +6226,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0
@@ -5772,6 +6256,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 01000000
     triggerType: 0
@@ -5809,6 +6295,8 @@ MonoBehaviour:
     power: 13000
     shield: 0
     critical: 1
+    maxCount: 4
+    isSentinel: 0
     countryList: 05000000
     tribeList: 10000000
     triggerType: 0

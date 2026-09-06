@@ -12,14 +12,14 @@ namespace Vanguard.CardSystem.UI
 {
     public class CardItemCell : MonoBehaviour, ICell, IPointerClickHandler
     {
+        #region Header
         [SerializeField] private Image cardImage;
-
         private CardData currentData;
-
         public static event Action<PointerEventData.InputButton, CardData, Vector2, Sprite> OnCellClicked;
-
-        // 어드레서블 이미지 메모리 해제를 위한 핸들
         private AsyncOperationHandle<Sprite> spriteHandle;
+        #endregion
+
+
 
         // Recyclable Scroll Rect에서 셀이 재사용될 때마다 호출되는 메서드
         public void ConfigureCell(CardData cardData)
@@ -31,11 +31,10 @@ namespace Vanguard.CardSystem.UI
             if (currentData == null) return;
 
             // 2. 어드레서블 키 가져오기 (List<string>의 첫 번째 키)
-            string key = (currentData.spriteAssetKeys != null && currentData.spriteAssetKeys.Count > 0)
-                ? currentData.spriteAssetKeys[0]
-                : null;
+            string key = (currentData.spriteAssetKeys != null && currentData.spriteAssetKeys.Count > 0) ? currentData.spriteAssetKeys[0] : null;
 
             if (string.IsNullOrEmpty(key)) return;
+            CardData requestedData = currentData;
 
             // 3. 어드레서블 이미지 비동기 로드
             Addressables.LoadAssetAsync<Sprite>(key).Completed += handle =>
@@ -65,7 +64,6 @@ namespace Vanguard.CardSystem.UI
             {
                 Addressables.Release(spriteHandle);
             }
-
             if (cardImage != null)
             {
                 cardImage.sprite = null;
@@ -81,11 +79,10 @@ namespace Vanguard.CardSystem.UI
         {
             Debug.Log($"[CardItemCell] 클릭 감지됨! 버튼 종류: {eventData.button} / 카드명: {currentData?.cardName}");
             if (currentData == null) return;
-
             Sprite currentSprite = cardImage != null ? cardImage.sprite : null;
-
             // 좌클릭/우클릭 정보와 마우스 현재 위치, CardData를 이벤트로 전송
             OnCellClicked?.Invoke(eventData.button, currentData, eventData.position, currentSprite);
+
         }
     }
 }

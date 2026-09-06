@@ -7,24 +7,26 @@ namespace Vanguard.CardSystem.UI
 {
     public class CardDisplayPanel : MonoBehaviour
     {
-        [Header("UI 요소 연결")]
+        #region Header
+        [Header("UI 컴포넌트")]
         [SerializeField] private Image cardImage;
         [SerializeField] private Text nameText;
         [SerializeField] private Text effectText;
         [SerializeField] private Text flavorText;
         [SerializeField] private Text tribeText;
         [SerializeField] private Text countryText;
+        #endregion
         public void UpdateDetailView(CardData data, Sprite loadedSprite)
         {
             if (data == null) return;
 
-            if (nameText != null) nameText.text = data.cardName;
-            if (effectText != null) effectText.text = data.effectText;
-            if (flavorText != null) flavorText.text = data.flavorText;
-            if (countryText != null) countryText.text = data.countryList.ToKoreanString();
-            if (tribeText != null) tribeText.text = data.tribeList.ToKoreanString();
+            nameText.text = data.cardName;
+            effectText.text = data.effectText;
+            flavorText.text = data.flavorText;
+            countryText.text = data.countryList.ToKoreanString();
+            tribeText.text = data.tribeList.ToKoreanString();
 
-            if (cardImage != null && loadedSprite != null)
+            if (loadedSprite != null)
             {
                 cardImage.sprite = loadedSprite;
             }

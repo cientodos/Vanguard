@@ -28,7 +28,7 @@ namespace Vanguard.Data.Databases
             string flavor = "", effect = "";
             List<string> spriteKeys = new List<string>();
             List<int> rarities = new List<int>();
-
+         
             foreach (var cell in list)
             {
                 switch (cell.columnId)
@@ -49,18 +49,19 @@ namespace Vanguard.Data.Databases
                     case "availableRarities": ParseRarities(cell.value, rarities); break;
                 }
             }
-
-
             {
                 // 💡 [수정 4] 최초 등록
-                DataList.Add(new CardData(
+                CardData card = new CardData(
                     id, name, grade, power, shield, critical,
                     new List<CountryType>(countryList), new List<TribeType>(tribeList),
                     flavor, effect, trigger, type,
                     new List<int>(rarities), new List<string>(spriteKeys)
-                ));
+                );
+
+                CardIdUtil.ApplyCardTypeInfo(id, card);
 
 
+                DataList.Add(card);
             }
         }
 

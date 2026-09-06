@@ -10,6 +10,7 @@ namespace Vanguard.Data.DataModels
         public string deckName;
         public List<int> mainDeckCardIds = new List<int>();
         public List<int> rideDeckCardIds = new List<int>();
+        public List<int> extraDeckCardIds = new List<int>();
 
         public DeckData(string name)
         {
@@ -17,7 +18,8 @@ namespace Vanguard.Data.DataModels
             deckName = string.IsNullOrWhiteSpace(name) ? "»õ µ¦" : name;
             mainDeckCardIds = new List<int>();
             rideDeckCardIds = new List<int>();
-        }
+            extraDeckCardIds = new List<int>();
+    }
         [Serializable]
         public class DeckListWrapper
         {
